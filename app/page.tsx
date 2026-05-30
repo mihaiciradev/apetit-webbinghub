@@ -1,65 +1,451 @@
-import Image from "next/image";
+import { Nav } from "./components/nav";
+import { Reveal } from "./components/reveal";
+import { DinnerSection } from "./components/dinner-section";
+import { Logo } from "./components/logo";
+import {
+  QrIcon,
+  CalendarIcon,
+  PulseIcon,
+  SparkleIcon,
+  ChartIcon,
+  ShieldIcon,
+  ArrowIcon,
+  PhoneIcon,
+  WandIcon,
+} from "./components/icons";
+
+const services = [
+  {
+    icon: QrIcon,
+    title: "QR-powered ordering",
+    body: "Guests scan, browse a beautiful menu in their own language, and order from the table — no app, no friction, no waiting.",
+  },
+  {
+    icon: CalendarIcon,
+    title: "Reservations that fill seats",
+    body: "Bookings, confirmations and reminders handled end-to-end, so your floor stays full and no-shows fade away.",
+  },
+  {
+    icon: PulseIcon,
+    title: "Real-time command center",
+    body: "Orders, requests and reviews land on your team's screen the instant they happen. Nothing slips through.",
+  },
+  {
+    icon: SparkleIcon,
+    title: "Guest engagement",
+    body: "Loyalty, offers and timely nudges that turn first visits into regulars — quietly working in the background.",
+  },
+  {
+    icon: ChartIcon,
+    title: "Insight, not noise",
+    body: "Clear signals on what your guests love and when they come, so every decision is an informed one.",
+  },
+  {
+    icon: ShieldIcon,
+    title: "Done-for-you & maintained",
+    body: "We set it up, host it, and keep it running. If anything ever breaks, we fix it. You focus on hospitality.",
+  },
+];
+
+const steps = [
+  {
+    n: "01",
+    title: "We set you up",
+    body: "Your menu, your tables, your brand. We handle the build, the domain and the QR codes — ready to place and go.",
+  },
+  {
+    n: "02",
+    title: "Guests experience it",
+    body: "A scan opens an effortless, on-brand journey: browse, order, reserve and review, all from the palm of their hand.",
+  },
+  {
+    n: "03",
+    title: "You stay in control",
+    body: "Watch everything flow through one calm dashboard while we keep the engine humming behind the scenes.",
+  },
+];
+
+const valueProps = [
+  {
+    title: "Keep what's yours",
+    body: "No middleman skimming your margins and no third party standing between you and your guests. The relationship — and the data — stays yours.",
+  },
+  {
+    title: "Zero friction for guests",
+    body: "Nothing to download, nothing to learn. One scan and they're ordering. The lower the barrier, the more they spend.",
+  },
+  {
+    title: "One team behind it all",
+    body: "Strategy, design, build and upkeep from a single agency. One point of contact, no finger-pointing, no surprises.",
+  },
+];
+
+const marqueeItems = [
+  "Restaurants",
+  "Cafés",
+  "Hotels",
+  "Bistros",
+  "Wine bars",
+  "Rooftops",
+  "Brasseries",
+  "Trattorias",
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div id="top" className="relative overflow-x-clip">
+      <Nav />
+
+      {/* ===================== HERO ===================== */}
+      <section className="relative isolate overflow-hidden bg-forest-950 text-cream">
+        {/* aurora blobs */}
+        <div className="pointer-events-none absolute inset-0 -z-10">
+          <div className="absolute -left-32 top-[-10%] h-[42rem] w-[42rem] rounded-full bg-forest-600/40 blur-[120px] animate-aurora" />
+          <div className="absolute right-[-12%] top-[8%] h-[34rem] w-[34rem] rounded-full bg-gold-500/25 blur-[120px] animate-aurora [animation-delay:-6s]" />
+          <div className="absolute bottom-[-20%] left-[20%] h-[36rem] w-[36rem] rounded-full bg-forest-400/25 blur-[140px] animate-aurora [animation-delay:-3s]" />
+        </div>
+        <div className="grain absolute inset-0 -z-10" />
+
+        <div className="mx-auto grid max-w-6xl items-center gap-16 px-6 pb-24 pt-36 lg:grid-cols-[1.1fr_0.9fr] lg:pb-32 lg:pt-44">
+          <div>
+            <Reveal>
+              <span className="inline-flex items-center gap-2 rounded-full border border-cream/15 bg-cream/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.22em] text-gold-300 backdrop-blur">
+                <span className="h-1.5 w-1.5 rounded-full bg-gold-400" />
+                APETIT · by WebbingHUB
+              </span>
+            </Reveal>
+
+            <Reveal delay={80}>
+              <h1 className="mt-7 font-display text-5xl font-semibold leading-[1.04] tracking-tight text-balance sm:text-6xl lg:text-7xl">
+                The digital heartbeat of modern hospitality.
+              </h1>
+            </Reveal>
+
+            <Reveal delay={160}>
+              <p className="mt-7 max-w-xl text-lg leading-relaxed text-cream/75">
+                APETIT turns every table into a seamless guest experience — ordering,
+                reservations and reviews flowing through one elegant platform, built and
+                maintained for restaurants, cafés and hotels.
+              </p>
+            </Reveal>
+
+            <Reveal delay={240}>
+              <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
+                <a
+                  href="#contact"
+                  className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold-500 px-7 py-4 text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400 hover:shadow-[0_22px_48px_-12px_rgba(184,151,90,0.8)]"
+                >
+                  Talk to us about your venue
+                  <ArrowIcon className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+                </a>
+                <a
+                  href="#platform"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-cream/20 px-7 py-4 text-base font-semibold text-cream transition-colors hover:bg-cream/10"
+                >
+                  See what we build
+                </a>
+              </div>
+            </Reveal>
+
+            <Reveal delay={320}>
+              <div className="mt-12 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-cream/55">
+                <span className="flex items-center gap-2">
+                  <ShieldIcon className="h-4 w-4 text-gold-400" /> Maintenance included
+                </span>
+                <span className="flex items-center gap-2">
+                  <PhoneIcon className="h-4 w-4 text-gold-400" /> No app to download
+                </span>
+                <span className="flex items-center gap-2">
+                  <ShieldIcon className="h-4 w-4 text-gold-400" /> GDPR-ready
+                </span>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* device mockup */}
+          <Reveal delay={200} className="relative mx-auto w-full max-w-sm">
+            <div className="absolute inset-0 -z-10 translate-y-6 scale-95 rounded-[3rem] bg-gold-500/20 blur-3xl" />
+            <div className="animate-float rounded-[2.6rem] border border-cream/15 bg-gradient-to-b from-forest-900 to-forest-950 p-3 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.6)]">
+              <div className="overflow-hidden rounded-[2.1rem] bg-cream">
+                <div className="flex items-center justify-between bg-forest-800 px-5 py-4 text-cream">
+                  <div className="flex items-center gap-2">
+                    <Logo className="h-6 w-6 text-gold-400" />
+                    <span className="font-display text-base font-semibold">APETIT</span>
+                  </div>
+                  <span className="rounded-full bg-cream/15 px-2.5 py-1 text-[10px] font-medium tracking-wide">
+                    Table 7
+                  </span>
+                </div>
+                <div className="space-y-3 p-5">
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-gold-600">
+                    Tonight&apos;s menu
+                  </p>
+                  {[
+                    { name: "Burrata & heirloom", tag: "Veg" },
+                    { name: "Wild mushroom risotto", tag: "Chef" },
+                    { name: "Seared sea bass", tag: "New" },
+                  ].map((item) => (
+                    <div
+                      key={item.name}
+                      className="flex items-center gap-3 rounded-2xl border border-sand bg-white p-3 shadow-sm"
+                    >
+                      <div className="h-11 w-11 shrink-0 rounded-xl bg-gradient-to-br from-forest-400/30 to-gold-400/30" />
+                      <div className="min-w-0 flex-1">
+                        <p className="truncate text-sm font-semibold text-ink">{item.name}</p>
+                        <span className="text-[10px] font-medium uppercase tracking-wide text-gold-600">
+                          {item.tag}
+                        </span>
+                      </div>
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-forest-700 text-sm font-bold text-cream">
+                        +
+                      </div>
+                    </div>
+                  ))}
+                  <button className="mt-1 w-full rounded-2xl bg-gold-500 py-3 text-sm font-semibold text-forest-950">
+                    Add to order
+                  </button>
+                </div>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+
+        {/* curved divider */}
+        <div className="relative">
+          <svg
+            className="block w-full text-cream"
+            viewBox="0 0 1440 80"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path d="M0 80V40C240 70 480 80 720 64 960 48 1200 8 1440 24V80Z" fill="currentColor" />
+          </svg>
+        </div>
+      </section>
+
+      {/* ===================== MARQUEE ===================== */}
+      <section className="border-y border-sand bg-cream py-7">
+        <div className="mx-auto mb-5 max-w-6xl px-6">
+          <p className="text-center text-xs font-semibold uppercase tracking-[0.25em] text-ink-soft/60">
+            Built for every kind of table
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="relative flex overflow-hidden [mask-image:linear-gradient(90deg,transparent,black_12%,black_88%,transparent)]">
+          <div className="flex shrink-0 animate-marquee items-center gap-12 pr-12">
+            {[...marqueeItems, ...marqueeItems].map((item, i) => (
+              <span
+                key={i}
+                className="flex items-center gap-12 font-display text-2xl font-medium text-forest-800/70"
+              >
+                {item}
+                <span className="h-1.5 w-1.5 rounded-full bg-gold-400" />
+              </span>
+            ))}
+          </div>
         </div>
-      </main>
+      </section>
+
+      {/* ===================== PLATFORM / SERVICES ===================== */}
+      <section id="platform" className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
+        <div className="max-w-2xl">
+          <Reveal>
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
+              The platform
+            </p>
+          </Reveal>
+          <Reveal delay={80}>
+            <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-forest-950 text-balance sm:text-5xl">
+              Everything your venue needs, woven into one experience.
+            </h2>
+          </Reveal>
+          <Reveal delay={140}>
+            <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+              We don&apos;t hand you a tool and walk away. APETIT is a complete service —
+              designed, delivered and looked after — so the technology disappears and the
+              hospitality shines.
+            </p>
+          </Reveal>
+        </div>
+
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((service, i) => (
+            <Reveal
+              key={service.title}
+              delay={(i % 3) * 90}
+              className="group relative overflow-hidden rounded-card border border-sand bg-white p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold-300 hover:shadow-[0_24px_50px_-24px_rgba(16,39,30,0.35)]"
+            >
+              <div className="absolute -right-10 -top-10 h-28 w-28 rounded-full bg-gold-400/0 transition-colors duration-300 group-hover:bg-gold-400/10" />
+              <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-forest-50/0 ring-1 ring-forest-700/15 [background:radial-gradient(circle_at_30%_30%,rgba(61,107,79,0.14),transparent)]">
+                <service.icon className="h-6 w-6 text-forest-700" />
+              </div>
+              <h3 className="mt-6 font-display text-xl font-semibold text-forest-950">
+                {service.title}
+              </h3>
+              <p className="mt-3 text-[15px] leading-relaxed text-ink-soft">{service.body}</p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ===================== HOW IT WORKS ===================== */}
+      <section id="how" className="relative overflow-hidden bg-forest-950 text-cream">
+        <div className="grain absolute inset-0 opacity-30" />
+        <div className="pointer-events-none absolute right-0 top-1/3 h-96 w-96 rounded-full bg-gold-500/15 blur-[120px]" />
+        <div className="relative mx-auto max-w-6xl px-6 py-24 lg:py-32">
+          <div className="max-w-2xl">
+            <Reveal>
+              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-400">
+                How it works
+              </p>
+            </Reveal>
+            <Reveal delay={80}>
+              <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl">
+                Live in days, effortless forever.
+              </h2>
+            </Reveal>
+          </div>
+
+          <div className="mt-16 grid gap-px overflow-hidden rounded-card border border-cream/10 bg-cream/10 md:grid-cols-3">
+            {steps.map((step, i) => (
+              <Reveal
+                key={step.n}
+                delay={i * 120}
+                className="bg-forest-950/80 p-8 backdrop-blur-sm transition-colors hover:bg-forest-900/80 lg:p-10"
+              >
+                <span className="font-display text-5xl font-semibold text-gold-400/90">
+                  {step.n}
+                </span>
+                <h3 className="mt-6 font-display text-2xl font-semibold">{step.title}</h3>
+                <p className="mt-3 leading-relaxed text-cream/65">{step.body}</p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===================== WHY APETIT ===================== */}
+      <section id="why" className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
+        <div className="grid gap-16 lg:grid-cols-[0.8fr_1.2fr]">
+          <div className="lg:sticky lg:top-28 lg:self-start">
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
+              Why APETIT
+            </p>
+            <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-forest-950 text-balance sm:text-5xl">
+              Technology that gives you back to your guests.
+            </h2>
+            <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+              The best hospitality tech is the kind nobody notices. Ours runs quietly so your
+              team can do what they do best.
+            </p>
+          </div>
+
+          <div className="space-y-5">
+            {valueProps.map((vp, i) => (
+              <div
+                key={vp.title}
+                className="rounded-card border border-sand bg-gradient-to-br from-white to-cream-deep p-8"
+              >
+                <div className="flex items-start gap-5">
+                  <span className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-forest-800 font-display text-lg font-semibold text-gold-300">
+                    {i + 1}
+                  </span>
+                  <div>
+                    <h3 className="font-display text-2xl font-semibold text-forest-950">
+                      {vp.title}
+                    </h3>
+                    <p className="mt-2 leading-relaxed text-ink-soft">{vp.body}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ===================== 3D EXPERIENCE ===================== */}
+      <DinnerSection />
+
+      {/* ===================== CTA / CONTACT ===================== */}
+      <section id="contact" className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
+        <Reveal className="relative isolate overflow-hidden rounded-[2.5rem] bg-forest-900 px-8 py-16 text-center text-cream sm:px-16 lg:py-24">
+          <div className="grain absolute inset-0 -z-10 opacity-30" />
+          <div className="pointer-events-none absolute -left-20 top-0 h-80 w-80 rounded-full bg-gold-500/25 blur-[110px]" />
+          <div className="pointer-events-none absolute -right-16 bottom-0 h-80 w-80 rounded-full bg-forest-400/30 blur-[110px]" />
+
+          <span className="inline-flex items-center gap-2 rounded-full border border-cream/15 bg-cream/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.22em] text-gold-300">
+            <WandIcon className="h-4 w-4" />
+            Let&apos;s build it together
+          </span>
+          <h2 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
+            Ready to bring your venue to life?
+          </h2>
+          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-cream/75">
+            Tell us about your place and how you serve. We&apos;ll show you exactly how APETIT
+            fits — no pressure, no jargon, just a conversation.
+          </p>
+          <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <a
+              href="https://www.webbinghub.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold-500 px-8 py-4 text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400"
+            >
+              Talk to us about services
+              <ArrowIcon className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </a>
+            <a
+              href="https://www.webbinghub.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full border border-cream/25 px-8 py-4 text-base font-semibold text-cream transition-colors hover:bg-cream/10"
+            >
+              Explore WebbingHUB
+            </a>
+          </div>
+        </Reveal>
+      </section>
+
+      {/* ===================== FOOTER ===================== */}
+      <footer className="border-t border-sand bg-cream">
+        <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-2.5">
+            <Logo className="h-8 w-8 text-forest-700" />
+            <div>
+              <p className="font-display text-lg font-semibold text-forest-950">APETIT</p>
+              <p className="text-xs uppercase tracking-[0.18em] text-ink-soft/70">
+                by WebbingHUB
+              </p>
+            </div>
+          </div>
+          <p className="max-w-md text-sm leading-relaxed text-ink-soft">
+            Digital solutions for restaurants, cafés &amp; hotels. Designed, built and
+            maintained so you can focus on hospitality.
+          </p>
+          <div className="flex flex-col gap-2 text-sm">
+            <a
+              href="https://www.webbinghub.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-forest-700 hover:text-forest-600"
+            >
+              webbinghub.io
+            </a>
+            <a
+              href="https://travel.webbinghub.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-ink-soft hover:text-forest-700"
+            >
+              travel.webbinghub.io
+            </a>
+          </div>
+        </div>
+        <div className="border-t border-sand">
+          <div className="mx-auto max-w-6xl px-6 py-5 text-center text-xs text-ink-soft/60">
+            © {new Date().getFullYear()} APETIT by WebbingHUB. All rights reserved.
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }

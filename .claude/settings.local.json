@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /d D:\\\\apetit-webbinghub)",
+      "Bash(dir /b)",
+      "Bash(dir /b /s app)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
