@@ -109,9 +109,26 @@ function PlaceSetting({ z }: { z: number }) {
         <meshStandardMaterial color="#c9ccd0" roughness={0.3} metalness={0.85} />
       </mesh>
       {/* cheap stylised glass (no transmission, for performance) */}
-      <mesh position={[0.27, 0.09, -0.02]}>
-        <cylinderGeometry args={[0.035, 0.028, 0.13, 16]} />
-        <meshStandardMaterial color="#dfe7e6" roughness={0.08} metalness={0.1} transparent opacity={0.35} />
+      <mesh position={[0.28, 0.115, -0.02]}>
+        <cylinderGeometry args={[0.046, 0.034, 0.17, 24]} />
+        <meshStandardMaterial
+          color="#cfe0df"
+          roughness={0.04}
+          metalness={0.0}
+          transparent
+          opacity={0.62}
+          envMapIntensity={1.6}
+        />
+      </mesh>
+      {/* wine fill, so the glass reads clearly on the light table */}
+      <mesh position={[0.28, 0.085, -0.02]}>
+        <cylinderGeometry args={[0.042, 0.032, 0.09, 24]} />
+        <meshStandardMaterial color="#7b2a3a" roughness={0.25} transparent opacity={0.85} />
+      </mesh>
+      {/* thin rim to catch the light */}
+      <mesh position={[0.28, 0.2, -0.02]} rotation={[Math.PI / 2, 0, 0]}>
+        <torusGeometry args={[0.045, 0.004, 8, 24]} />
+        <meshStandardMaterial color="#eef4f3" roughness={0.1} metalness={0.2} transparent opacity={0.8} />
       </mesh>
     </group>
   );
@@ -190,7 +207,7 @@ function Experience({
   reduced: boolean;
 }) {
   const chair = useRef<THREE.Group>(null);
-  const { camera } = useThree();
+  const { camera, size } = useThree();
 
   useFrame((_, dt) => {
     const d = Math.min(dt, 0.05);
@@ -227,12 +244,25 @@ function Experience({
     const camX = THREE.MathUtils.lerp(orbX, 0.1, sit);
     const camY = THREE.MathUtils.lerp(orbY, 1.5, sit);
     const camZ = THREE.MathUtils.lerp(orbZ, 1.95, sit);
-    camera.position.x = THREE.MathUtils.damp(camera.position.x, camX, 5, d);
-    camera.position.y = THREE.MathUtils.damp(camera.position.y, camY, 5, d);
-    camera.position.z = THREE.MathUtils.damp(camera.position.z, camZ, 5, d);
 
     const lookY = THREE.MathUtils.lerp(0.72, 0.82, sit);
     const lookZ = THREE.MathUtils.lerp(0, -0.02, sit);
+
+    // Responsive framing: the table is a wide object, and the perspective fov is
+    // vertical — so on tall/narrow phone screens the horizontal view collapses
+    // and the table gets cropped. As the aspect ratio drops below ~1.5 we pull
+    // the camera straight back along its view vector so the whole table stays in
+    // frame. Desktop (aspect ≥ 1.5) is untouched.
+    const aspect = size.width / Math.max(size.height, 1);
+    const zoom = 1 + clamp01((1.5 - aspect) / 1.0) * 1.2;
+    const fcamX = (camX - 0) * zoom + 0;
+    const fcamY = (camY - lookY) * zoom + lookY;
+    const fcamZ = (camZ - lookZ) * zoom + lookZ;
+
+    camera.position.x = THREE.MathUtils.damp(camera.position.x, fcamX, 5, d);
+    camera.position.y = THREE.MathUtils.damp(camera.position.y, fcamY, 5, d);
+    camera.position.z = THREE.MathUtils.damp(camera.position.z, fcamZ, 5, d);
+
     camera.lookAt(0, lookY, lookZ);
   });
 

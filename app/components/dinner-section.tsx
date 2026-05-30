@@ -65,9 +65,10 @@ export function DinnerSection() {
         document.documentElement.style.scrollSnapType = pinned ? "y mandatory" : "";
       }
 
-      // responsive overlay: headline crossfades, progress bar fills
-      if (titleARef.current) titleARef.current.style.opacity = String(clamp01(1 - (p - 0.4) / 0.12));
-      if (titleBRef.current) titleBRef.current.style.opacity = String(clamp01((p - 0.46) / 0.12));
+      // responsive overlay: headline crossfades between the mid and end beats so
+      // each rest point (0, 0.5, 1) shows a single clean title.
+      if (titleARef.current) titleARef.current.style.opacity = String(clamp01(1 - (p - 0.6) / 0.12));
+      if (titleBRef.current) titleBRef.current.style.opacity = String(clamp01((p - 0.66) / 0.12));
       if (barRef.current) barRef.current.style.transform = `scaleX(${p})`;
     };
     onScroll();
@@ -86,8 +87,8 @@ export function DinnerSection() {
       ref={sectionRef}
       className="relative h-[300vh] bg-cream-deep text-forest-950"
     >
-      {/* scroll-snap beats — the scene only comes to rest at these framings */}
-      {[0, 1 / 3, 2 / 3, 1].map((f) => (
+      {/* scroll-snap beats — three framings: initial, mid, end */}
+      {[0, 0.5, 1].map((f) => (
         <div
           key={f}
           aria-hidden
@@ -106,7 +107,7 @@ export function DinnerSection() {
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-cream-deep to-transparent" />
 
         {/* overlay copy */}
-        <div className="pointer-events-none absolute inset-0 mx-auto flex max-w-6xl flex-col justify-between px-6 py-14 sm:py-20">
+        <div className="pointer-events-none absolute inset-0 mx-auto flex max-w-6xl flex-col justify-between px-6 pb-14 pt-24 sm:py-20">
           <div className="relative max-w-xl">
             <div ref={titleARef}>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">

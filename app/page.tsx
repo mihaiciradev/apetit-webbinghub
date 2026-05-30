@@ -374,14 +374,15 @@ export default function Home() {
 
           <span className="inline-flex items-center gap-2 rounded-full border border-cream/15 bg-cream/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.22em] text-gold-300">
             <WandIcon className="h-4 w-4" />
-            Let&apos;s build it together
+            We come to you
           </span>
           <h2 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
             Ready to bring your venue to life?
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-cream/75">
-            Tell us about your place and how you serve. We&apos;ll show you exactly how APETIT
-            fits — no pressure, no jargon, just a conversation.
+            We don&apos;t pitch from a slide deck. We visit your venue, sit down with your team,
+            and listen — honest feedback from the people who actually work the floor. Then we
+            show you exactly how APETIT fits.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
