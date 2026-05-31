@@ -42,5 +42,5 @@ export function proxy(request: NextRequest) {
 export const config = {
   // Run on everything except Next internals, API routes, and files with an
   // extension (favicon.ico, images, etc.).
-  matcher: ["/((?!_next|api|.*\\..*).*)"],
+  matcher: ["/((?!_next|api|nutshell|.*\\..*).*)"],
 };

@@ -29,12 +29,13 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/api/", "/_next/"],
+        disallow: ["/api/", "/_next/", "/nutshell"],
       },
       // AI answer engines — full access, no crawl delay.
       {
         userAgent: aiAgents,
         allow: "/",
+        disallow: ["/nutshell"],
       },
     ],
     sitemap: `${SITE_URL}/sitemap.xml`,
