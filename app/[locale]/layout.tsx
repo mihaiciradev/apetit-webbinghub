@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Geist } from "next/font/google";
 import { Fraunces } from "next/font/google";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import { locales, defaultLocale, isLocale } from "@/i18n-config";
 import { SITE_URL, SITE_NAME, TWITTER_HANDLE, localeUrl, ogLocale } from "@/site-config";
 import { getDictionary } from "./dictionaries";
@@ -133,7 +134,10 @@ export default async function RootLayout({
       lang={locale}
       className={`${geistSans.variable} ${fraunces.variable} h-full antialiased`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
