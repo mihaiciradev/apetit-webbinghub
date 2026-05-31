@@ -6,6 +6,8 @@ import { Reveal } from "../components/reveal";
 import { DinnerSection } from "../components/dinner-section";
 import { Logo } from "../components/logo";
 import { StructuredData } from "../components/structured-data";
+import { AnchorScroll } from "../components/anchor-scroll";
+import { WhatIsApetit } from "../components/what-is-apetit";
 import {
   QrIcon,
   CalendarIcon,
@@ -46,6 +48,7 @@ export default async function Home({
         title={t.meta.title}
         description={t.meta.description}
       />
+      <AnchorScroll />
       <Nav locale={locale} dict={t.nav} />
 
       {/* ===================== HERO ===================== */}
@@ -88,12 +91,7 @@ export default async function Home({
                   {t.hero.ctaPrimary}
                   <ArrowIcon className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
                 </a>
-                <a
-                  href="#platform"
-                  className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-cream/20 px-7 py-4 text-center text-base font-semibold text-cream transition-colors hover:bg-cream/10 sm:w-auto"
-                >
-                  {t.hero.ctaSecondary}
-                </a>
+                <WhatIsApetit label={t.hero.ctaSecondary} body={t.hero.about} />
               </div>
             </Reveal>
 
@@ -191,7 +189,7 @@ export default async function Home({
       </section>
 
       {/* ===================== PLATFORM / SERVICES ===================== */}
-      <section id="platform" className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
+      <section id="platform" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-24 lg:py-32">
         <div className="max-w-2xl">
           <Reveal>
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
@@ -232,7 +230,7 @@ export default async function Home({
       </section>
 
       {/* ===================== HOW IT WORKS ===================== */}
-      <section id="how" className="relative overflow-hidden bg-forest-950 text-cream">
+      <section id="how" className="relative scroll-mt-28 overflow-hidden bg-forest-950 text-cream">
         <div className="grain absolute inset-0 opacity-30" />
         <div className="pointer-events-none absolute right-0 top-1/3 h-96 w-96 rounded-full bg-gold-500/15 blur-[120px]" />
         <div className="relative mx-auto max-w-6xl px-6 py-24 lg:py-32">
@@ -268,7 +266,7 @@ export default async function Home({
       </section>
 
       {/* ===================== WHY APETIT ===================== */}
-      <section id="why" className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
+      <section id="why" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-24 lg:py-32">
         <div className="grid gap-16 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="lg:sticky lg:top-28 lg:self-start">
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
@@ -307,7 +305,7 @@ export default async function Home({
       <DinnerSection dict={t.experience} />
 
       {/* ===================== CTA / CONTACT ===================== */}
-      <section id="contact" className="mx-auto max-w-6xl px-6 py-24 lg:py-32">
+      <section id="contact" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-24 lg:py-32">
         <Reveal className="relative isolate overflow-hidden rounded-[2.5rem] bg-forest-900 px-8 py-16 text-center text-cream sm:px-16 lg:py-24">
           <div className="grain absolute inset-0 -z-10 opacity-30" />
           <div className="pointer-events-none absolute -left-20 top-0 h-80 w-80 rounded-full bg-gold-500/25 blur-[110px]" />

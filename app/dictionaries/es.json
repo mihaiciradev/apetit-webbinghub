@@ -32,7 +32,8 @@
     "title": "El pulso digital de la hospitalidad moderna.",
     "subtitle": "APETIT convierte cada mesa en una experiencia fluida para tus clientes — pedidos, reservas y reseñas reunidos en una sola plataforma elegante, creada y mantenida para restaurantes, cafeterías y hoteles.",
     "ctaPrimary": "Hablemos de tu local",
-    "ctaSecondary": "Mira lo que creamos",
+    "ctaSecondary": "¿Qué es APETIT?",
+    "about": "APETIT es una plataforma digital para restaurantes, cafeterías y hoteles. Tus clientes escanean un código QR en la mesa para ver la carta, pedir, reservar y dejar reseñas desde su propio teléfono —sin ninguna app que descargar— mientras tu equipo lo gestiona todo desde un panel sencillo. Nosotros diseñamos, desarrollamos y mantenemos todo el sistema, para que puedas centrarte en atender a tus clientes.",
     "trust": ["Mantenimiento incluido", "Sin app que descargar", "Cumple el RGPD"],
     "device": {
       "table": "Mesa 7",

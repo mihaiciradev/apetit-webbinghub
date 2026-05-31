@@ -32,7 +32,8 @@
     "title": "Der digitale Herzschlag moderner Gastfreundschaft.",
     "subtitle": "APETIT macht jeden Tisch zu einem nahtlosen Gästeerlebnis — Bestellungen, Reservierungen und Bewertungen vereint in einer eleganten Plattform, gebaut und gepflegt für Restaurants, Cafés und Hotels.",
     "ctaPrimary": "Sprich mit uns über dein Lokal",
-    "ctaSecondary": "Sieh, was wir bauen",
+    "ctaSecondary": "Was ist APETIT?",
+    "about": "APETIT ist eine digitale Plattform für Restaurants, Cafés und Hotels. Deine Gäste scannen einen QR-Code am Tisch, um direkt vom eigenen Smartphone die Speisekarte anzusehen, zu bestellen, zu reservieren und Bewertungen abzugeben — ganz ohne App — während dein Team alles über ein einfaches Dashboard verwaltet. Wir gestalten, entwickeln und betreiben das gesamte System, damit du dich auf deine Gäste konzentrieren kannst.",
     "trust": ["Wartung inklusive", "Keine App nötig", "DSGVO-konform"],
     "device": {
       "table": "Tisch 7",

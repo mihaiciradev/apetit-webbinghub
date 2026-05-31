@@ -32,7 +32,8 @@
     "title": "Le battement numérique de l'hospitalité moderne.",
     "subtitle": "APETIT transforme chaque table en une expérience fluide pour vos clients — commandes, réservations et avis réunis dans une seule plateforme élégante, conçue et maintenue pour les restaurants, cafés et hôtels.",
     "ctaPrimary": "Parlons de votre établissement",
-    "ctaSecondary": "Découvrez ce que nous créons",
+    "ctaSecondary": "Qu'est-ce qu'APETIT ?",
+    "about": "APETIT est une plateforme numérique pour les restaurants, cafés et hôtels. Vos clients scannent un QR code à table pour consulter le menu, commander, réserver et laisser un avis depuis leur propre téléphone — sans aucune application à télécharger — pendant que votre équipe gère tout depuis un tableau de bord simple. Nous concevons, développons et maintenons l'ensemble du système, pour que vous puissiez vous concentrer sur l'accueil de vos clients.",
     "trust": ["Maintenance incluse", "Aucune application à télécharger", "Conforme RGPD"],
     "device": {
       "table": "Table 7",

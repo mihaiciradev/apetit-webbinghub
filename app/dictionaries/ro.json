@@ -32,7 +32,8 @@
     "title": "Bătaia digitală a ospitalității moderne.",
     "subtitle": "APETIT transformă fiecare masă într-o experiență fără cusur pentru oaspeți — comenzi, rezervări și recenzii reunite într-o singură platformă elegantă, construită și întreținută pentru restaurante, cafenele și hoteluri.",
     "ctaPrimary": "Hai să vorbim despre localul tău",
-    "ctaSecondary": "Vezi ce construim",
+    "ctaSecondary": "Ce este APETIT?",
+    "about": "APETIT este o platformă digitală pentru restaurante, cafenele și hoteluri. Oaspeții tăi scanează un cod QR la masă pentru a vedea meniul, a comanda, a rezerva și a lăsa recenzii direct de pe telefonul lor — fără nicio aplicație de descărcat — în timp ce echipa ta gestionează totul dintr-un panou simplu. Noi proiectăm, construim și întreținem întregul sistem, ca tu să te poți concentra pe primirea oaspeților.",
     "trust": ["Mentenanță inclusă", "Fără aplicație de descărcat", "Conform GDPR"],
     "device": {
       "table": "Masa 7",

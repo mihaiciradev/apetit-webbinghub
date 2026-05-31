@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
+import { snapLock } from "./scroll-snap-lock";
 
 function SceneFallback() {
   return (
@@ -64,8 +65,12 @@ export function DinnerSection({ dict }: { dict: ExperienceDict }) {
       progress.current = p;
 
       // Only force scroll-snapping while the scene is pinned and filling the
-      // viewport — elsewhere the page scrolls freely.
-      const pinned = rect.top <= 1 && rect.bottom >= window.innerHeight - 2;
+      // viewport — elsewhere the page scrolls freely. While an in-page anchor
+      // jump is in flight (snapLock), stay unsnapped so we don't hijack it.
+      const pinned =
+        !snapLock.get() &&
+        rect.top <= 1 &&
+        rect.bottom >= window.innerHeight - 2;
       if (pinned !== snapOn) {
         snapOn = pinned;
         document.documentElement.style.scrollSnapType = pinned ? "y mandatory" : "";
@@ -91,7 +96,7 @@ export function DinnerSection({ dict }: { dict: ExperienceDict }) {
     <section
       id="experience"
       ref={sectionRef}
-      className="relative h-[300vh] bg-cream-deep text-forest-950"
+      className="relative h-[300vh] scroll-mt-28 bg-cream-deep text-forest-950"
     >
       {/* scroll-snap beats — three framings: initial, mid, end */}
       {[0, 0.5, 1].map((f) => (
