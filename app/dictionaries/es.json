@@ -1,4 +1,20 @@
 {
+  "meta": {
+    "title": "APETIT by WebbingHUB — La plataforma digital de la hospitalidad moderna",
+    "description": "APETIT convierte cada mesa en una experiencia fluida: pedidos con QR, reservas y un centro de control en tiempo real para restaurantes, cafeterías y hoteles — by WebbingHUB.",
+    "keywords": [
+      "plataforma HORECA",
+      "pedidos con QR",
+      "carta digital",
+      "reservas restaurante",
+      "tecnología para hostelería",
+      "software para restaurantes",
+      "menú sin contacto",
+      "WebbingHUB"
+    ],
+    "ogAlt": "APETIT by WebbingHUB — la plataforma digital de la hospitalidad",
+    "tagline": "La plataforma digital de la hospitalidad moderna"
+  },
   "nav": {
     "links": {
       "platform": "Plataforma",

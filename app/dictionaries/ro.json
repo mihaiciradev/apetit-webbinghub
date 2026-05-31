@@ -1,4 +1,20 @@
 {
+  "meta": {
+    "title": "APETIT by WebbingHUB — Platforma digitală pentru ospitalitatea modernă",
+    "description": "APETIT transformă fiecare masă într-o experiență fără cusur: comenzi prin QR, rezervări și un centru de comandă în timp real pentru restaurante, cafenele și hoteluri — by WebbingHUB.",
+    "keywords": [
+      "platformă HORECA",
+      "comenzi prin QR",
+      "meniu digital",
+      "rezervări restaurant",
+      "tehnologie pentru ospitalitate",
+      "software pentru restaurante",
+      "meniu fără contact",
+      "WebbingHUB"
+    ],
+    "ogAlt": "APETIT by WebbingHUB — platforma digitală pentru ospitalitate",
+    "tagline": "Platforma digitală pentru ospitalitatea modernă"
+  },
   "nav": {
     "links": {
       "platform": "Platformă",

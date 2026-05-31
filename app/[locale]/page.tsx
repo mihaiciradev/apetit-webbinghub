@@ -5,6 +5,7 @@ import { Nav } from "../components/nav";
 import { Reveal } from "../components/reveal";
 import { DinnerSection } from "../components/dinner-section";
 import { Logo } from "../components/logo";
+import { StructuredData } from "../components/structured-data";
 import {
   QrIcon,
   CalendarIcon,
@@ -40,6 +41,11 @@ export default async function Home({
 
   return (
     <div id="top" className="relative overflow-x-clip">
+      <StructuredData
+        locale={locale}
+        title={t.meta.title}
+        description={t.meta.description}
+      />
       <Nav locale={locale} dict={t.nav} />
 
       {/* ===================== HERO ===================== */}
