@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "links": {
+      "platform": "Platform",
+      "how": "How it works",
+      "why": "Why APETIT",
+      "experience": "Experience"
+    },
+    "tagline": "by WebbingHUB",
+    "cta": "Talk to us",
+    "menu": "Toggle menu",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "by WebbingHUB",
+    "title": "The digital heartbeat of modern hospitality.",
+    "subtitle": "APETIT turns every table into a seamless guest experience — ordering, reservations and reviews flowing through one elegant platform, built and maintained for restaurants, cafés and hotels.",
+    "ctaPrimary": "Talk to us about your venue",
+    "ctaSecondary": "See what we build",
+    "trust": ["Maintenance included", "No app to download", "GDPR-ready"],
+    "device": {
+      "table": "Table 7",
+      "menu": "Tonight's menu",
+      "items": [
+        { "name": "Burrata & heirloom", "tag": "Veg" },
+        { "name": "Wild mushroom risotto", "tag": "Chef" },
+        { "name": "Seared sea bass", "tag": "New" }
+      ],
+      "add": "Add to order"
+    }
+  },
+  "marquee": {
+    "label": "Built for every kind of table",
+    "items": [
+      "Restaurants",
+      "Cafés",
+      "Hotels",
+      "Bistros",
+      "Wine bars",
+      "Rooftops",
+      "Brasseries",
+      "Trattorias"
+    ]
+  },
+  "platform": {
+    "eyebrow": "The platform",
+    "title": "Everything your venue needs, woven into one experience.",
+    "intro": "We don't hand you a tool and walk away. APETIT is a complete service — designed, delivered and looked after — so the technology disappears and the hospitality shines.",
+    "services": [
+      {
+        "icon": "qr",
+        "title": "QR-powered ordering",
+        "body": "Guests scan, browse a beautiful menu in their own language, and order from the table — no app, no friction, no waiting."
+      },
+      {
+        "icon": "calendar",
+        "title": "Reservations that fill seats",
+        "body": "Bookings, confirmations and reminders handled end-to-end, so your floor stays full and no-shows fade away."
+      },
+      {
+        "icon": "pulse",
+        "title": "Real-time command center",
+        "body": "Orders, requests and reviews land on your team's screen the instant they happen. Nothing slips through."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Guest engagement",
+        "body": "Loyalty, offers and timely nudges that turn first visits into regulars — quietly working in the background."
+      },
+      {
+        "icon": "chart",
+        "title": "Insight, not noise",
+        "body": "Clear signals on what your guests love and when they come, so every decision is an informed one."
+      },
+      {
+        "icon": "shield",
+        "title": "Done-for-you & maintained",
+        "body": "We set it up, host it, and keep it running. If anything ever breaks, we fix it. You focus on hospitality."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Live in days, effortless forever.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "We set you up",
+        "body": "Your menu, your tables, your brand. We handle the build, the domain and the QR codes — ready to place and go."
+      },
+      {
+        "n": "02",
+        "title": "Guests experience it",
+        "body": "A scan opens an effortless, on-brand journey: browse, order, reserve and review, all from the palm of their hand."
+      },
+      {
+        "n": "03",
+        "title": "You stay in control",
+        "body": "Watch everything flow through one calm dashboard while we keep the engine humming behind the scenes."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why APETIT",
+    "title": "Technology that gives you back to your guests.",
+    "intro": "The best hospitality tech is the kind nobody notices. Ours runs quietly so your team can do what they do best.",
+    "props": [
+      {
+        "title": "Keep what's yours",
+        "body": "No middleman skimming your margins and no third party standing between you and your guests. The relationship — and the data — stays yours."
+      },
+      {
+        "title": "Zero friction for guests",
+        "body": "Nothing to download, nothing to learn. One scan and they're ordering. The lower the barrier, the more they spend."
+      },
+      {
+        "title": "One team behind it all",
+        "body": "Strategy, design, build and upkeep from a single agency. One point of contact, no finger-pointing, no surprises."
+      }
+    ]
+  },
+  "experience": {
+    "a": {
+      "eyebrow": "The APETIT experience",
+      "title": "Pull up a chair.",
+      "body": "A scan opens the table. The seat slides out. The welcome begins — before a single word is spoken."
+    },
+    "b": {
+      "eyebrow": "And the rest? Handled.",
+      "title": "You just host.",
+      "body": "Orders, bookings, the lights, the little details — APETIT runs quietly in the background so every guest feels expected."
+    },
+    "progress": "Take your seat"
+  },
+  "contact": {
+    "eyebrow": "We come to you",
+    "title": "Ready to bring your venue to life?",
+    "body": "We don't pitch from a slide deck. We visit your venue, sit down with your team, and listen — honest feedback from the people who actually work the floor. Then we show you exactly how APETIT fits.",
+    "ctaPrimary": "Talk to us about services",
+    "ctaSecondary": "Explore WebbingHUB"
+  },
+  "footer": {
+    "tagline": "by WebbingHUB",
+    "blurb": "Digital solutions for restaurants, cafés & hotels. Designed, built and maintained so you can focus on hospitality.",
+    "rights": "All rights reserved."
+  }
+}

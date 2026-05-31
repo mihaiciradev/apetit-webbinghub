@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "links": {
+      "platform": "Plattform",
+      "how": "So funktioniert's",
+      "why": "Warum APETIT",
+      "experience": "Erlebnis"
+    },
+    "tagline": "by WebbingHUB",
+    "cta": "Sprich mit uns",
+    "menu": "Menü öffnen",
+    "language": "Sprache"
+  },
+  "hero": {
+    "badge": "by WebbingHUB",
+    "title": "Der digitale Herzschlag moderner Gastfreundschaft.",
+    "subtitle": "APETIT macht jeden Tisch zu einem nahtlosen Gästeerlebnis — Bestellungen, Reservierungen und Bewertungen vereint in einer eleganten Plattform, gebaut und gepflegt für Restaurants, Cafés und Hotels.",
+    "ctaPrimary": "Sprich mit uns über dein Lokal",
+    "ctaSecondary": "Sieh, was wir bauen",
+    "trust": ["Wartung inklusive", "Keine App nötig", "DSGVO-konform"],
+    "device": {
+      "table": "Tisch 7",
+      "menu": "Die Karte für heute Abend",
+      "items": [
+        { "name": "Burrata & alte Tomatensorten", "tag": "Vegi" },
+        { "name": "Wildpilz-Risotto", "tag": "Chef" },
+        { "name": "Gebratener Wolfsbarsch", "tag": "Neu" }
+      ],
+      "add": "Zur Bestellung hinzufügen"
+    }
+  },
+  "marquee": {
+    "label": "Für jede Art von Tisch gemacht",
+    "items": [
+      "Restaurants",
+      "Cafés",
+      "Hotels",
+      "Bistros",
+      "Weinbars",
+      "Dachterrassen",
+      "Brasserien",
+      "Trattorias"
+    ]
+  },
+  "platform": {
+    "eyebrow": "Die Plattform",
+    "title": "Alles, was dein Lokal braucht, vereint in einem Erlebnis.",
+    "intro": "Wir drücken dir kein Werkzeug in die Hand und verschwinden. APETIT ist ein kompletter Service — gestaltet, geliefert und gepflegt — damit die Technik verschwindet und die Gastfreundschaft strahlt.",
+    "services": [
+      {
+        "icon": "qr",
+        "title": "Bestellen per QR-Code",
+        "body": "Gäste scannen, blättern durch eine schöne Karte in ihrer Sprache und bestellen direkt am Tisch — keine App, keine Hürden, kein Warten."
+      },
+      {
+        "icon": "calendar",
+        "title": "Reservierungen, die Plätze füllen",
+        "body": "Buchungen, Bestätigungen und Erinnerungen von A bis Z erledigt, damit dein Lokal voll bleibt und No-Shows verschwinden."
+      },
+      {
+        "icon": "pulse",
+        "title": "Steuerzentrale in Echtzeit",
+        "body": "Bestellungen, Anfragen und Bewertungen landen in dem Moment auf dem Bildschirm deines Teams, in dem sie passieren. Nichts geht verloren."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Gästebindung",
+        "body": "Treue, Angebote und kleine Aufmerksamkeiten zur richtigen Zeit, die aus dem ersten Besuch Stammgäste machen — leise im Hintergrund."
+      },
+      {
+        "icon": "chart",
+        "title": "Klarheit statt Lärm",
+        "body": "Klare Signale, was deine Gäste lieben und wann sie kommen, damit jede Entscheidung fundiert ist."
+      },
+      {
+        "icon": "shield",
+        "title": "Rundum betreut & gewartet",
+        "body": "Wir richten es ein, hosten es und halten es am Laufen. Geht etwas kaputt, reparieren wir es. Du konzentrierst dich auf die Gastfreundschaft."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "So funktioniert's",
+    "title": "In Tagen live, für immer mühelos.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Wir richten dich ein",
+        "body": "Deine Karte, deine Tische, deine Marke. Wir kümmern uns um den Aufbau, die Domain und die QR-Codes — fertig zum Aufstellen und Loslegen."
+      },
+      {
+        "n": "02",
+        "title": "Deine Gäste erleben es",
+        "body": "Ein Scan öffnet eine mühelose Reise in deinem Look: stöbern, bestellen, reservieren und bewerten, alles in der Handfläche."
+      },
+      {
+        "n": "03",
+        "title": "Du behältst die Kontrolle",
+        "body": "Beobachte alles über ein ruhiges Dashboard, während wir den Motor hinter den Kulissen am Laufen halten."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Warum APETIT",
+    "title": "Technik, die dir deine Gäste zurückgibt.",
+    "intro": "Die beste Gastro-Technik ist die, die niemand bemerkt. Unsere arbeitet leise, damit dein Team das tun kann, was es am besten kann.",
+    "props": [
+      {
+        "title": "Behalte, was dir gehört",
+        "body": "Kein Mittelsmann, der deine Margen abschöpft, und kein Dritter zwischen dir und deinen Gästen. Die Beziehung — und die Daten — bleiben deine."
+      },
+      {
+        "title": "Null Hürden für Gäste",
+        "body": "Nichts herunterzuladen, nichts zu lernen. Ein Scan und sie bestellen. Je niedriger die Hürde, desto mehr geben sie aus."
+      },
+      {
+        "title": "Ein Team hinter allem",
+        "body": "Strategie, Design, Umsetzung und Pflege aus einer einzigen Agentur. Ein Ansprechpartner, kein Schwarzer-Peter-Spiel, keine Überraschungen."
+      }
+    ]
+  },
+  "experience": {
+    "a": {
+      "eyebrow": "Das APETIT-Erlebnis",
+      "title": "Nimm Platz.",
+      "body": "Ein Scan öffnet den Tisch. Der Stuhl gleitet heraus. Der Empfang beginnt — bevor ein einziges Wort fällt."
+    },
+    "b": {
+      "eyebrow": "Und der Rest? Erledigt.",
+      "title": "Du bist nur Gastgeber.",
+      "body": "Bestellungen, Buchungen, das Licht, die kleinen Details — APETIT läuft leise im Hintergrund, damit sich jeder Gast erwartet fühlt."
+    },
+    "progress": "Nimm Platz"
+  },
+  "contact": {
+    "eyebrow": "Wir kommen zu dir",
+    "title": "Bereit, dein Lokal zum Leben zu erwecken?",
+    "body": "Wir präsentieren nicht aus einer Folienschlacht heraus. Wir kommen in dein Lokal, setzen uns mit deinem Team zusammen und hören zu — ehrliches Feedback von den Menschen, die wirklich im Service arbeiten. Dann zeigen wir dir genau, wie APETIT passt.",
+    "ctaPrimary": "Sprich mit uns über Services",
+    "ctaSecondary": "WebbingHUB entdecken"
+  },
+  "footer": {
+    "tagline": "by WebbingHUB",
+    "blurb": "Digitale Lösungen für Restaurants, Cafés & Hotels. Gestaltet, gebaut und gepflegt, damit du dich auf Gastfreundschaft konzentrieren kannst.",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

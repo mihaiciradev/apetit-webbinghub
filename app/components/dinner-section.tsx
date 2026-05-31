@@ -21,7 +21,13 @@ const DinnerScene = dynamic(() => import("./dinner-scene"), {
 
 const clamp01 = (x: number) => Math.min(1, Math.max(0, x));
 
-export function DinnerSection() {
+type ExperienceDict = {
+  a: { eyebrow: string; title: string; body: string };
+  b: { eyebrow: string; title: string; body: string };
+  progress: string;
+};
+
+export function DinnerSection({ dict }: { dict: ExperienceDict }) {
   const sectionRef = useRef<HTMLDivElement>(null);
   const progress = useRef(0);
   const titleARef = useRef<HTMLDivElement>(null);
@@ -111,27 +117,25 @@ export function DinnerSection() {
           <div className="relative max-w-xl">
             <div ref={titleARef}>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
-                The APETIT experience
+                {dict.a.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
-                Pull up a chair.
+                {dict.a.title}
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-ink-soft">
-                A scan opens the table. The seat slides out. The welcome begins — before a
-                single word is spoken.
+                {dict.a.body}
               </p>
             </div>
 
             <div ref={titleBRef} className="absolute inset-0" style={{ opacity: 0 }}>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
-                And the rest? Handled.
+                {dict.b.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
-                You just host.
+                {dict.b.title}
               </h2>
               <p className="mt-5 max-w-md text-lg leading-relaxed text-ink-soft">
-                Orders, bookings, the lights, the little details — APETIT runs quietly in the
-                background so every guest feels expected.
+                {dict.b.body}
               </p>
             </div>
           </div>
@@ -146,7 +150,7 @@ export function DinnerSection() {
               />
             </div>
             <span className="text-xs font-medium uppercase tracking-[0.2em] text-ink-soft/60">
-              Take your seat
+              {dict.progress}
             </span>
           </div>
         </div>

@@ -2,17 +2,32 @@
 
 import { useEffect, useState } from "react";
 import { Logo } from "./logo";
+import { LanguageSwitcher } from "./language-switcher";
+import type { Locale } from "@/i18n-config";
 
-const links = [
-  { label: "Platform", href: "#platform" },
-  { label: "How it works", href: "#how" },
-  { label: "Why APETIT", href: "#why" },
-  { label: "Experience", href: "#experience" },
-];
+type NavDict = {
+  links: {
+    platform: string;
+    how: string;
+    why: string;
+    experience: string;
+  };
+  tagline: string;
+  cta: string;
+  menu: string;
+  language: string;
+};
 
-export function Nav() {
+export function Nav({ locale, dict }: { locale: Locale; dict: NavDict }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+
+  const links = [
+    { label: dict.links.platform, href: "#platform" },
+    { label: dict.links.how, href: "#how" },
+    { label: dict.links.why, href: "#why" },
+    { label: dict.links.experience, href: "#experience" },
+  ];
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -55,7 +70,7 @@ export function Nav() {
               light ? "text-cream/65" : "text-ink-soft/70"
             }`}
           >
-            by WebbingHUB
+            {dict.tagline}
           </span>
         </a>
 
@@ -74,11 +89,14 @@ export function Nav() {
         </div>
 
         <div className="flex items-center gap-3">
+          <div className="hidden md:block">
+            <LanguageSwitcher current={locale} light={light} />
+          </div>
           <a
             href="#contact"
             className="hidden rounded-full bg-forest-800 px-5 py-2.5 text-sm font-semibold text-cream shadow-[0_8px_24px_-8px_rgba(16,39,30,0.6)] transition-all hover:bg-forest-700 hover:shadow-[0_10px_30px_-6px_rgba(16,39,30,0.65)] sm:inline-block"
           >
-            Talk to us
+            {dict.cta}
           </a>
           <button
             type="button"
@@ -86,7 +104,7 @@ export function Nav() {
             className={`flex h-10 w-10 items-center justify-center rounded-full border transition-colors md:hidden ${
               light ? "border-cream/25 text-cream" : "border-forest-900/10 text-forest-900"
             }`}
-            aria-label="Toggle menu"
+            aria-label={dict.menu}
             aria-expanded={open}
           >
             <span className="relative block h-3.5 w-5">
@@ -124,12 +142,20 @@ export function Nav() {
               </a>
             ))}
           </div>
+
+          <div className="mt-8 flex items-center justify-between">
+            <span className="text-sm font-medium uppercase tracking-[0.18em] text-ink-soft/70">
+              {dict.language}
+            </span>
+            <LanguageSwitcher current={locale} />
+          </div>
+
           <a
             href="#contact"
             onClick={() => setOpen(false)}
             className="mt-8 rounded-full bg-forest-800 px-6 py-4 text-center text-base font-semibold text-cream"
           >
-            Talk to us
+            {dict.cta}
           </a>
         </div>
       )}

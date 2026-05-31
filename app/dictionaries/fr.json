@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "links": {
+      "platform": "Plateforme",
+      "how": "Comment ça marche",
+      "why": "Pourquoi APETIT",
+      "experience": "Expérience"
+    },
+    "tagline": "by WebbingHUB",
+    "cta": "Parlons-en",
+    "menu": "Ouvrir le menu",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "by WebbingHUB",
+    "title": "Le battement numérique de l'hospitalité moderne.",
+    "subtitle": "APETIT transforme chaque table en une expérience fluide pour vos clients — commandes, réservations et avis réunis dans une seule plateforme élégante, conçue et maintenue pour les restaurants, cafés et hôtels.",
+    "ctaPrimary": "Parlons de votre établissement",
+    "ctaSecondary": "Découvrez ce que nous créons",
+    "trust": ["Maintenance incluse", "Aucune application à télécharger", "Conforme RGPD"],
+    "device": {
+      "table": "Table 7",
+      "menu": "Le menu de ce soir",
+      "items": [
+        { "name": "Burrata & tomates anciennes", "tag": "Végé" },
+        { "name": "Risotto aux champignons sauvages", "tag": "Chef" },
+        { "name": "Bar poêlé", "tag": "Nouveau" }
+      ],
+      "add": "Ajouter à la commande"
+    }
+  },
+  "marquee": {
+    "label": "Pensé pour chaque type de table",
+    "items": [
+      "Restaurants",
+      "Cafés",
+      "Hôtels",
+      "Bistrots",
+      "Bars à vin",
+      "Rooftops",
+      "Brasseries",
+      "Trattorias"
+    ]
+  },
+  "platform": {
+    "eyebrow": "La plateforme",
+    "title": "Tout ce dont votre établissement a besoin, réuni en une seule expérience.",
+    "intro": "Nous ne vous laissons pas seul avec un outil. APETIT est un service complet — conçu, livré et entretenu — pour que la technologie s'efface et que l'hospitalité brille.",
+    "services": [
+      {
+        "icon": "qr",
+        "title": "Commande par QR code",
+        "body": "Vos clients scannent, parcourent un menu élégant dans leur langue et commandent depuis la table — sans application, sans friction, sans attente."
+      },
+      {
+        "icon": "calendar",
+        "title": "Des réservations qui remplissent la salle",
+        "body": "Réservations, confirmations et rappels gérés de bout en bout, pour une salle toujours pleine et des absences qui disparaissent."
+      },
+      {
+        "icon": "pulse",
+        "title": "Centre de pilotage en temps réel",
+        "body": "Commandes, demandes et avis arrivent sur l'écran de votre équipe à l'instant même. Rien ne vous échappe."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Fidélisation des clients",
+        "body": "Fidélité, offres et attentions au bon moment qui transforment les premières visites en habitués — discrètement, en arrière-plan."
+      },
+      {
+        "icon": "chart",
+        "title": "De la clarté, pas du bruit",
+        "body": "Des signaux clairs sur ce que vos clients aiment et quand ils viennent, pour que chaque décision soit éclairée."
+      },
+      {
+        "icon": "shield",
+        "title": "Clé en main & maintenu",
+        "body": "Nous l'installons, l'hébergeons et le maintenons. Si quelque chose casse, nous le réparons. Vous, vous vous concentrez sur l'accueil."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "En ligne en quelques jours, sans effort pour toujours.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Nous vous installons",
+        "body": "Votre menu, vos tables, votre marque. Nous gérons la création, le domaine et les QR codes — prêts à poser et c'est parti."
+      },
+      {
+        "n": "02",
+        "title": "Vos clients en profitent",
+        "body": "Un scan ouvre un parcours fluide et à votre image : parcourir, commander, réserver et noter, le tout au creux de la main."
+      },
+      {
+        "n": "03",
+        "title": "Vous gardez le contrôle",
+        "body": "Suivez tout depuis un tableau de bord serein pendant que nous gardons le moteur en marche, en coulisses."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Pourquoi APETIT",
+    "title": "Une technologie qui vous rend à vos clients.",
+    "intro": "La meilleure technologie d'accueil est celle que personne ne remarque. La nôtre travaille en silence pour que votre équipe fasse ce qu'elle fait de mieux.",
+    "props": [
+      {
+        "title": "Gardez ce qui vous appartient",
+        "body": "Aucun intermédiaire qui rogne vos marges, aucun tiers entre vous et vos clients. La relation — et les données — restent à vous."
+      },
+      {
+        "title": "Zéro friction pour les clients",
+        "body": "Rien à télécharger, rien à apprendre. Un scan et ils commandent. Moins il y a d'obstacles, plus ils consomment."
+      },
+      {
+        "title": "Une seule équipe derrière tout",
+        "body": "Stratégie, design, développement et maintenance par une seule agence. Un seul interlocuteur, aucune responsabilité rejetée, aucune surprise."
+      }
+    ]
+  },
+  "experience": {
+    "a": {
+      "eyebrow": "L'expérience APETIT",
+      "title": "Prenez place.",
+      "body": "Un scan ouvre la table. La chaise se glisse. L'accueil commence — avant même le premier mot."
+    },
+    "b": {
+      "eyebrow": "Et le reste ? On s'en occupe.",
+      "title": "Vous n'avez qu'à recevoir.",
+      "body": "Commandes, réservations, lumières, petits détails — APETIT travaille discrètement en arrière-plan pour que chaque client se sente attendu."
+    },
+    "progress": "Prenez place"
+  },
+  "contact": {
+    "eyebrow": "Nous venons à vous",
+    "title": "Prêt à donner vie à votre établissement ?",
+    "body": "Nous ne vendons pas depuis une présentation. Nous venons dans votre établissement, nous nous asseyons avec votre équipe et nous écoutons — des retours sincères des personnes qui sont vraiment sur le terrain. Ensuite, nous vous montrons exactement comment APETIT s'intègre.",
+    "ctaPrimary": "Parlons de nos services",
+    "ctaSecondary": "Découvrir WebbingHUB"
+  },
+  "footer": {
+    "tagline": "by WebbingHUB",
+    "blurb": "Des solutions numériques pour restaurants, cafés et hôtels. Conçues, développées et maintenues pour que vous puissiez vous consacrer à l'accueil.",
+    "rights": "Tous droits réservés."
+  }
+}

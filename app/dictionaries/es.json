@@ -1,0 +1,147 @@
+{
+  "nav": {
+    "links": {
+      "platform": "Plataforma",
+      "how": "Cómo funciona",
+      "why": "Por qué APETIT",
+      "experience": "Experiencia"
+    },
+    "tagline": "by WebbingHUB",
+    "cta": "Hablemos",
+    "menu": "Abrir menú",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "by WebbingHUB",
+    "title": "El pulso digital de la hospitalidad moderna.",
+    "subtitle": "APETIT convierte cada mesa en una experiencia fluida para tus clientes — pedidos, reservas y reseñas reunidos en una sola plataforma elegante, creada y mantenida para restaurantes, cafeterías y hoteles.",
+    "ctaPrimary": "Hablemos de tu local",
+    "ctaSecondary": "Mira lo que creamos",
+    "trust": ["Mantenimiento incluido", "Sin app que descargar", "Cumple el RGPD"],
+    "device": {
+      "table": "Mesa 7",
+      "menu": "El menú de esta noche",
+      "items": [
+        { "name": "Burrata y tomate de temporada", "tag": "Veg" },
+        { "name": "Risotto de setas silvestres", "tag": "Chef" },
+        { "name": "Lubina a la plancha", "tag": "Nuevo" }
+      ],
+      "add": "Añadir al pedido"
+    }
+  },
+  "marquee": {
+    "label": "Pensado para cada tipo de mesa",
+    "items": [
+      "Restaurantes",
+      "Cafeterías",
+      "Hoteles",
+      "Bistrós",
+      "Bares de vinos",
+      "Terrazas",
+      "Brasseries",
+      "Trattorias"
+    ]
+  },
+  "platform": {
+    "eyebrow": "La plataforma",
+    "title": "Todo lo que tu local necesita, unido en una sola experiencia.",
+    "intro": "No te entregamos una herramienta y desaparecemos. APETIT es un servicio completo — diseñado, entregado y cuidado — para que la tecnología desaparezca y la hospitalidad brille.",
+    "services": [
+      {
+        "icon": "qr",
+        "title": "Pedidos con código QR",
+        "body": "Tus clientes escanean, exploran un menú elegante en su idioma y piden desde la mesa — sin app, sin fricción, sin esperas."
+      },
+      {
+        "icon": "calendar",
+        "title": "Reservas que llenan mesas",
+        "body": "Reservas, confirmaciones y recordatorios gestionados de principio a fin, para que tu sala esté siempre llena y las ausencias desaparezcan."
+      },
+      {
+        "icon": "pulse",
+        "title": "Centro de control en tiempo real",
+        "body": "Pedidos, solicitudes y reseñas llegan a la pantalla de tu equipo en el instante en que ocurren. Nada se escapa."
+      },
+      {
+        "icon": "sparkle",
+        "title": "Fidelización de clientes",
+        "body": "Lealtad, ofertas y detalles en el momento justo que convierten la primera visita en un cliente habitual — trabajando en silencio, en segundo plano."
+      },
+      {
+        "icon": "chart",
+        "title": "Claridad, no ruido",
+        "body": "Señales claras sobre lo que tus clientes adoran y cuándo vienen, para que cada decisión esté bien informada."
+      },
+      {
+        "icon": "shield",
+        "title": "Llave en mano y mantenido",
+        "body": "Lo configuramos, lo alojamos y lo mantenemos en marcha. Si algo se rompe, lo arreglamos. Tú te centras en la hospitalidad."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "En marcha en días, sin esfuerzo para siempre.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Te lo dejamos listo",
+        "body": "Tu menú, tus mesas, tu marca. Nos ocupamos de la creación, el dominio y los códigos QR — listos para colocar y empezar."
+      },
+      {
+        "n": "02",
+        "title": "Tus clientes lo viven",
+        "body": "Un escaneo abre un recorrido fluido y con tu identidad: explorar, pedir, reservar y reseñar, todo en la palma de la mano."
+      },
+      {
+        "n": "03",
+        "title": "Tú mantienes el control",
+        "body": "Sigue todo desde un panel tranquilo mientras nosotros mantenemos el motor en marcha entre bastidores."
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Por qué APETIT",
+    "title": "Tecnología que te devuelve a tus clientes.",
+    "intro": "La mejor tecnología para la hostelería es la que nadie nota. La nuestra trabaja en silencio para que tu equipo haga lo que mejor sabe hacer.",
+    "props": [
+      {
+        "title": "Conserva lo que es tuyo",
+        "body": "Sin intermediarios que recortan tus márgenes ni terceros entre tú y tus clientes. La relación — y los datos — siguen siendo tuyos."
+      },
+      {
+        "title": "Cero fricción para tus clientes",
+        "body": "Nada que descargar, nada que aprender. Un escaneo y ya están pidiendo. Cuanto menor es la barrera, más consumen."
+      },
+      {
+        "title": "Un solo equipo detrás de todo",
+        "body": "Estrategia, diseño, desarrollo y mantenimiento desde una sola agencia. Un único contacto, sin culpas cruzadas, sin sorpresas."
+      }
+    ]
+  },
+  "experience": {
+    "a": {
+      "eyebrow": "La experiencia APETIT",
+      "title": "Toma asiento.",
+      "body": "Un escaneo abre la mesa. La silla se desliza. La bienvenida empieza — antes de pronunciar una sola palabra."
+    },
+    "b": {
+      "eyebrow": "¿Y el resto? Resuelto.",
+      "title": "Tú solo recibe.",
+      "body": "Pedidos, reservas, las luces, los pequeños detalles — APETIT funciona en silencio en segundo plano para que cada cliente se sienta esperado."
+    },
+    "progress": "Toma asiento"
+  },
+  "contact": {
+    "eyebrow": "Vamos a ti",
+    "title": "¿Listo para dar vida a tu local?",
+    "body": "No vendemos desde una presentación. Visitamos tu local, nos sentamos con tu equipo y escuchamos — opiniones sinceras de quienes de verdad trabajan en la sala. Después te mostramos exactamente cómo encaja APETIT.",
+    "ctaPrimary": "Hablemos de servicios",
+    "ctaSecondary": "Explorar WebbingHUB"
+  },
+  "footer": {
+    "tagline": "by WebbingHUB",
+    "blurb": "Soluciones digitales para restaurantes, cafeterías y hoteles. Diseñadas, creadas y mantenidas para que puedas centrarte en la hospitalidad.",
+    "rights": "Todos los derechos reservados."
+  }
+}
