@@ -59,22 +59,22 @@ export default async function Home({
         <div className="grain absolute inset-0 -z-10" />
 
         <div className="mx-auto grid max-w-6xl items-center gap-16 px-6 pb-24 pt-36 lg:grid-cols-[1.1fr_0.9fr] lg:pb-32 lg:pt-44">
-          <div>
+          <div className="min-w-0">
             <Reveal>
               <span className="inline-flex items-center gap-2 rounded-full border border-cream/15 bg-cream/5 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.22em] text-gold-300 backdrop-blur">
                 <span className="h-1.5 w-1.5 rounded-full bg-gold-400" />
-                APETIT · {t.hero.badge}
+                <span className="min-w-0 break-words">APETIT · {t.hero.badge}</span>
               </span>
             </Reveal>
 
             <Reveal delay={80}>
-              <h1 className="mt-7 font-display text-5xl font-semibold leading-[1.04] tracking-tight text-balance sm:text-6xl lg:text-7xl">
+              <h1 className="mt-7 font-display text-5xl font-semibold leading-[1.04] tracking-tight text-balance hyphens-auto break-words sm:text-6xl lg:text-7xl">
                 {t.hero.title}
               </h1>
             </Reveal>
 
             <Reveal delay={160}>
-              <p className="mt-7 max-w-xl text-lg leading-relaxed text-cream/75">
+              <p className="mt-7 max-w-xl text-lg leading-relaxed text-cream/75 hyphens-auto break-words">
                 {t.hero.subtitle}
               </p>
             </Reveal>
@@ -83,14 +83,14 @@ export default async function Home({
               <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   href="#contact"
-                  className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold-500 px-7 py-4 text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400 hover:shadow-[0_22px_48px_-12px_rgba(184,151,90,0.8)]"
+                  className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold-500 px-7 py-4 text-center text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400 hover:shadow-[0_22px_48px_-12px_rgba(184,151,90,0.8)] sm:w-auto"
                 >
                   {t.hero.ctaPrimary}
-                  <ArrowIcon className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+                  <ArrowIcon className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
                 </a>
                 <a
                   href="#platform"
-                  className="inline-flex items-center justify-center gap-2 rounded-full border border-cream/20 px-7 py-4 text-base font-semibold text-cream transition-colors hover:bg-cream/10"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-full border border-cream/20 px-7 py-4 text-center text-base font-semibold text-cream transition-colors hover:bg-cream/10 sm:w-auto"
                 >
                   {t.hero.ctaSecondary}
                 </a>
@@ -112,7 +112,7 @@ export default async function Home({
           </div>
 
           {/* device mockup */}
-          <Reveal delay={200} className="relative mx-auto w-full max-w-sm">
+          <Reveal delay={200} className="relative mx-auto w-full min-w-0 max-w-sm">
             <div className="absolute inset-0 -z-10 translate-y-6 scale-95 rounded-[3rem] bg-gold-500/20 blur-3xl" />
             <div className="animate-float rounded-[2.6rem] border border-cream/15 bg-gradient-to-b from-forest-900 to-forest-950 p-3 shadow-[0_40px_80px_-20px_rgba(0,0,0,0.6)]">
               <div className="overflow-hidden rounded-[2.1rem] bg-cream">
