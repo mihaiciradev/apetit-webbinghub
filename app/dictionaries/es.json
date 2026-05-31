@@ -154,7 +154,13 @@
     "title": "¿Listo para dar vida a tu local?",
     "body": "No vendemos desde una presentación. Visitamos tu local, nos sentamos con tu equipo y escuchamos — opiniones sinceras de quienes de verdad trabajan en la sala. Después te mostramos exactamente cómo encaja APETIT.",
     "ctaPrimary": "Hablemos de servicios",
-    "ctaSecondary": "Explorar WebbingHUB"
+    "ctaSecondary": "Explorar WebbingHUB",
+    "reach": {
+      "heading": "¿Cómo prefieres contactarnos?",
+      "email": "Escríbenos",
+      "call": "Llamar",
+      "whatsapp": "WhatsApp"
+    }
   },
   "footer": {
     "tagline": "by WebbingHUB",

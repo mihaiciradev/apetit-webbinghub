@@ -154,7 +154,13 @@
     "title": "Prêt à donner vie à votre établissement ?",
     "body": "Nous ne vendons pas depuis une présentation. Nous venons dans votre établissement, nous nous asseyons avec votre équipe et nous écoutons — des retours sincères des personnes qui sont vraiment sur le terrain. Ensuite, nous vous montrons exactement comment APETIT s'intègre.",
     "ctaPrimary": "Parlons de nos services",
-    "ctaSecondary": "Découvrir WebbingHUB"
+    "ctaSecondary": "Découvrir WebbingHUB",
+    "reach": {
+      "heading": "Comment souhaitez-vous nous contacter ?",
+      "email": "Écrivez-nous",
+      "call": "Appeler",
+      "whatsapp": "WhatsApp"
+    }
   },
   "footer": {
     "tagline": "by WebbingHUB",

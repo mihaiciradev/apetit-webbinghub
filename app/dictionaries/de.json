@@ -154,7 +154,13 @@
     "title": "Bereit, dein Lokal zum Leben zu erwecken?",
     "body": "Wir präsentieren nicht aus einer Folienschlacht heraus. Wir kommen in dein Lokal, setzen uns mit deinem Team zusammen und hören zu — ehrliches Feedback von den Menschen, die wirklich im Service arbeiten. Dann zeigen wir dir genau, wie APETIT passt.",
     "ctaPrimary": "Sprich mit uns über Services",
-    "ctaSecondary": "WebbingHUB entdecken"
+    "ctaSecondary": "WebbingHUB entdecken",
+    "reach": {
+      "heading": "Wie möchtest du uns erreichen?",
+      "email": "Schreib uns",
+      "call": "Anrufen",
+      "whatsapp": "WhatsApp"
+    }
   },
   "footer": {
     "tagline": "by WebbingHUB",

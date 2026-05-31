@@ -154,7 +154,13 @@
     "title": "Gata să dai viață localului tău?",
     "body": "Nu vindem dintr-o prezentare cu slide-uri. Venim în localul tău, ne așezăm cu echipa ta și ascultăm — păreri sincere de la oamenii care chiar lucrează în sală. Apoi îți arătăm exact cum se potrivește APETIT.",
     "ctaPrimary": "Hai să vorbim despre servicii",
-    "ctaSecondary": "Explorează WebbingHUB"
+    "ctaSecondary": "Explorează WebbingHUB",
+    "reach": {
+      "heading": "Cum preferi să ne contactezi?",
+      "email": "Scrie-ne",
+      "call": "Sună",
+      "whatsapp": "WhatsApp"
+    }
   },
   "footer": {
     "tagline": "by WebbingHUB",

@@ -156,7 +156,13 @@
     "title": "Ready to bring your venue to life?",
     "body": "We don't pitch from a slide deck. We visit your venue, sit down with your team, and listen — honest feedback from the people who actually work the floor. Then we show you exactly how APETIT fits.",
     "ctaPrimary": "Talk to us about services",
-    "ctaSecondary": "Explore WebbingHUB"
+    "ctaSecondary": "Explore WebbingHUB",
+    "reach": {
+      "heading": "How would you like to reach us?",
+      "email": "Email us",
+      "call": "Call",
+      "whatsapp": "WhatsApp"
+    }
   },
   "footer": {
     "tagline": "by WebbingHUB",

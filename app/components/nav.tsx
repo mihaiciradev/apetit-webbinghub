@@ -26,7 +26,8 @@ export function Nav({ locale, dict }: { locale: Locale; dict: NavDict }) {
     { label: dict.links.platform, href: "#platform" },
     { label: dict.links.how, href: "#how" },
     { label: dict.links.why, href: "#why" },
-    { label: dict.links.experience, href: "#experience" },
+    // TEMPORARILY DISABLED — restore with the 3D experience section.
+    // { label: dict.links.experience, href: "#experience" },
   ];
 
   useEffect(() => {

@@ -3,11 +3,13 @@ import { isLocale } from "@/i18n-config";
 import { getDictionary } from "./dictionaries";
 import { Nav } from "../components/nav";
 import { Reveal } from "../components/reveal";
-import { DinnerSection } from "../components/dinner-section";
+// TEMPORARILY DISABLED — restore in the future (3D experience section).
+// import { DinnerSection } from "../components/dinner-section";
 import { Logo } from "../components/logo";
 import { StructuredData } from "../components/structured-data";
 import { AnchorScroll } from "../components/anchor-scroll";
 import { WhatIsApetit } from "../components/what-is-apetit";
+import { ContactCta } from "../components/contact-cta";
 import {
   QrIcon,
   CalendarIcon,
@@ -302,7 +304,9 @@ export default async function Home({
       </section>
 
       {/* ===================== 3D EXPERIENCE ===================== */}
+      {/* TEMPORARILY DISABLED — restore in the future.
       <DinnerSection dict={t.experience} />
+      */}
 
       {/* ===================== CTA / CONTACT ===================== */}
       <section id="contact" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-24 lg:py-32">
@@ -322,15 +326,7 @@ export default async function Home({
             {t.contact.body}
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a
-              href="https://www.webbinghub.io"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold-500 px-8 py-4 text-center text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400 sm:w-auto"
-            >
-              {t.contact.ctaPrimary}
-              <ArrowIcon className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
-            </a>
+            <ContactCta label={t.contact.ctaPrimary} reach={t.contact.reach} />
             <a
               href="https://www.webbinghub.io"
               target="_blank"
