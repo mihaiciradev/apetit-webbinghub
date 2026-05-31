@@ -199,12 +199,12 @@ export default async function Home({
             </p>
           </Reveal>
           <Reveal delay={80}>
-            <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-forest-950 text-balance sm:text-5xl">
+            <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-forest-950 text-balance hyphens-auto break-words sm:text-5xl">
               {t.platform.title}
             </h2>
           </Reveal>
           <Reveal delay={140}>
-            <p className="mt-5 text-lg leading-relaxed text-ink-soft">{t.platform.intro}</p>
+            <p className="mt-5 text-lg leading-relaxed text-ink-soft hyphens-auto break-words">{t.platform.intro}</p>
           </Reveal>
         </div>
 
@@ -221,10 +221,10 @@ export default async function Home({
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-forest-50/0 ring-1 ring-forest-700/15 [background:radial-gradient(circle_at_30%_30%,rgba(61,107,79,0.14),transparent)]">
                   <Icon className="h-6 w-6 text-forest-700" />
                 </div>
-                <h3 className="mt-6 font-display text-xl font-semibold text-forest-950">
+                <h3 className="mt-6 font-display text-xl font-semibold text-forest-950 hyphens-auto break-words">
                   {service.title}
                 </h3>
-                <p className="mt-3 text-[15px] leading-relaxed text-ink-soft">{service.body}</p>
+                <p className="mt-3 text-[15px] leading-relaxed text-ink-soft hyphens-auto break-words">{service.body}</p>
               </Reveal>
             );
           })}
@@ -243,7 +243,7 @@ export default async function Home({
               </p>
             </Reveal>
             <Reveal delay={80}>
-              <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl">
+              <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-balance hyphens-auto break-words sm:text-5xl">
                 {t.how.title}
               </h2>
             </Reveal>
@@ -259,8 +259,8 @@ export default async function Home({
                 <span className="font-display text-5xl font-semibold text-gold-400/90">
                   {step.n}
                 </span>
-                <h3 className="mt-6 font-display text-2xl font-semibold">{step.title}</h3>
-                <p className="mt-3 leading-relaxed text-cream/65">{step.body}</p>
+                <h3 className="mt-6 font-display text-2xl font-semibold hyphens-auto break-words">{step.title}</h3>
+                <p className="mt-3 leading-relaxed text-cream/65 hyphens-auto break-words">{step.body}</p>
               </Reveal>
             ))}
           </div>
@@ -274,10 +274,10 @@ export default async function Home({
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
               {t.why.eyebrow}
             </p>
-            <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-forest-950 text-balance sm:text-5xl">
+            <h2 className="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-forest-950 text-balance hyphens-auto break-words sm:text-5xl">
               {t.why.title}
             </h2>
-            <p className="mt-5 text-lg leading-relaxed text-ink-soft">{t.why.intro}</p>
+            <p className="mt-5 text-lg leading-relaxed text-ink-soft hyphens-auto break-words">{t.why.intro}</p>
           </div>
 
           <div className="space-y-5">
@@ -290,11 +290,11 @@ export default async function Home({
                   <span className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-forest-800 font-display text-lg font-semibold text-gold-300">
                     {i + 1}
                   </span>
-                  <div>
-                    <h3 className="font-display text-2xl font-semibold text-forest-950">
+                  <div className="min-w-0">
+                    <h3 className="font-display text-2xl font-semibold text-forest-950 hyphens-auto break-words">
                       {vp.title}
                     </h3>
-                    <p className="mt-2 leading-relaxed text-ink-soft">{vp.body}</p>
+                    <p className="mt-2 leading-relaxed text-ink-soft hyphens-auto break-words">{vp.body}</p>
                   </div>
                 </div>
               </div>
@@ -317,10 +317,10 @@ export default async function Home({
             <WandIcon className="h-4 w-4" />
             {t.contact.eyebrow}
           </span>
-          <h2 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
+          <h2 className="mx-auto mt-6 max-w-3xl font-display text-4xl font-semibold leading-tight tracking-tight text-balance hyphens-auto break-words sm:text-5xl lg:text-6xl">
             {t.contact.title}
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-cream/75">
+          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-cream/75 hyphens-auto break-words">
             {t.contact.body}
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -328,16 +328,16 @@ export default async function Home({
               href="https://www.webbinghub.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-gold-500 px-8 py-4 text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400"
+              className="group inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold-500 px-8 py-4 text-center text-base font-semibold text-forest-950 shadow-[0_18px_40px_-12px_rgba(184,151,90,0.7)] transition-all hover:bg-gold-400 sm:w-auto"
             >
               {t.contact.ctaPrimary}
-              <ArrowIcon className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <ArrowIcon className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
             </a>
             <a
               href="https://www.webbinghub.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-full border border-cream/25 px-8 py-4 text-base font-semibold text-cream transition-colors hover:bg-cream/10"
+              className="inline-flex w-full items-center justify-center rounded-full border border-cream/25 px-8 py-4 text-center text-base font-semibold text-cream transition-colors hover:bg-cream/10 sm:w-auto"
             >
               {t.contact.ctaSecondary}
             </a>
