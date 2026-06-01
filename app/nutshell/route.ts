@@ -709,7 +709,7 @@ const html = `<!DOCTYPE html>
         <div class="content">
             <!-- Introduction -->
             <div class="section">
-                <p class="intro-text" data-en="APETIT is a QR-powered platform built for hospitality businesses. Customers scan a code on their table to browse, order, and reserve. You get real-time orders and reservations with full control over your customer data. Simple, transparent, all yours." data-ro="APETIT este o platformă bazată pe coduri QR construită pentru businessuri din industria ospitalității. Clienții scanează un cod pe masa pentru a comanda și a face rezervări. Primești comenzi și rezervări în timp real cu control total asupra datelor clienților. Simplu, transparent, complet al tău.">APETIT is a QR-powered platform built for hospitality businesses. Customers scan a code on their table to browse, order, and reserve. You get real-time orders and reservations with full control over your customer data. Simple, transparent, all yours.</p>
+                <p class="intro-text" data-en="APETIT is a QR platform for restaurants, cafés, and hotels. Customers scan the code on their table, read the menu, order, and book. You see every order and reservation the moment it lands, and you keep your customer data." data-ro="APETIT e o platformă QR pentru restaurante, cafenele și hoteluri. Clienții scanează codul de pe masă, citesc meniul, comandă și rezervă. Vezi fiecare comandă și rezervare în clipa în care apare, iar datele clienților rămân ale tale.">APETIT is a QR platform for restaurants, cafés, and hotels. Customers scan the code on their table, read the menu, order, and book. You see every order and reservation the moment it lands, and you keep your customer data.</p>
             </div>
 
             <!-- MODULE 1 -->
@@ -733,7 +733,7 @@ const html = `<!DOCTYPE html>
                             <li data-en="Rate dishes, leave feedback" data-ro="Evaluează mâncăruri, lasă feedback">Rate dishes, leave feedback</li>
                             <li data-en="Choose: Dine-in or Takeaway" data-ro="Alege: Mâncare la local sau de luat">Choose: Dine-in or Takeaway</li>
                         </ul>
-                        <p class="note" data-en="Customers don't need to download an app. One scan on the table = they're ordering." data-ro="Clienții nu trebuie să descarce o aplicație. Un singur scan pe masă = comandă">Customers don't need to download an app. One scan on the table = they're ordering.</p>
+                        <p class="note" data-en="No app to download. Customers scan the code and order." data-ro="Fără aplicație de descărcat. Clienții scanează codul și comandă.">No app to download. Customers scan the code and order.</p>
                     </div>
                 </div>
             </div>
@@ -746,17 +746,17 @@ const html = `<!DOCTYPE html>
                     <div class="features-grid">
                         <div class="feature-item">
                             <h5 data-en="🔔 Call Waiter Button" data-ro="🔔 Buton Apelează Chelnerul">🔔 Call Waiter Button</h5>
-                            <p data-en="Customers tap a button on their phone to call the waiter instantly. No more waiting or looking around. Staff gets a real-time alert with table number." data-ro="Clienții ating un buton pe telefon pentru a apela chelnerul instant. Fără așteptări sau căutări. Personalul primește alertă în timp real cu numărul mesei.">Customers tap a button on their phone to call the waiter instantly. No more waiting or looking around. Staff gets a real-time alert with table number.</p>
+                            <p data-en="Customers tap a button to call the waiter. Staff get an alert with the table number. Nobody waves across the room." data-ro="Clienții apasă un buton ca să cheme chelnerul. Personalul primește o alertă cu numărul mesei. Nimeni nu mai face semne prin sală.">Customers tap a button to call the waiter. Staff get an alert with the table number. Nobody waves across the room.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="💳 Payment at Table" data-ro="💳 Plată la Masă">💳 Payment at Table</h5>
-                            <p data-en="Two payment options: Cash (waiter collects) or Card (payment terminal at table). Simple, secure, no confusion about who pays what." data-ro="Două opțiuni de plată: Numerar (chelnerul colectează) sau Card (terminalul la masă). Simplu, sigur, fără confuzie despre cine plătește ce.">Two payment options: Cash (waiter collects) or Card (payment terminal at table). Simple, secure, no confusion about who pays what.</p>
+                            <p data-en="Two ways to pay: cash, where the waiter collects, or card on a terminal at the table. Everyone knows who pays what." data-ro="Două moduri de plată: numerar, încasat de chelner, sau card la terminalul de la masă. Toți știu cine cât plătește.">Two ways to pay: cash, where the waiter collects, or card on a terminal at the table. Everyone knows who pays what.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="💻 Online Payment (Optional Add-On)" data-ro="💻 Plată Online (Modul Optional)">💻 Online Payment (Optional Add-On)</h5>
-                            <p data-en="Enable customers to pay directly through the app before the waiter arrives. Perfect for restaurants wanting a fully digital experience. You decide if it's enabled for your menu." data-ro="Permite clienților să plătească direct prin app înainte să ajungă chelnerul. Perfect pentru restaurante care doresc experiență digital completă. Tu hotărăști dacă e activă.">Enable customers to pay directly through the app before the waiter arrives. Perfect for restaurants wanting a fully digital experience. You decide if it's enabled for your menu.</p>
+                            <p data-en="Let customers pay in the app before the waiter reaches the table. You choose whether to turn it on for your menu." data-ro="Lasă clienții să plătească în aplicație înainte să ajungă chelnerul. Tu alegi dacă o activezi pentru meniul tău.">Let customers pay in the app before the waiter reaches the table. You choose whether to turn it on for your menu.</p>
                         </div>
                     </div>
                 </div>
@@ -779,7 +779,7 @@ const html = `<!DOCTYPE html>
                             <li data-en="Entrance QR code for walk-in bookings" data-ro="Cod QR la intrare pentru rezervări spontane">Entrance QR code for walk-in bookings</li>
                             <li class="subtext" data-en="(shows immediate availability - converts walk-ins to future bookings)" data-ro="(arată disponibilitate imediată - transformă clienți spontani în rezervări viitoare)">(shows immediate availability - converts walk-ins to future bookings)</li>
                         </ul>
-                        <p class="note" data-en="Perfect for restaurants where table availability matters. Fewer no-shows, better planning." data-ro="Perfect pentru restaurante unde disponibilitatea mesei conteaza. Mai puține absențe, planificare mai bună.">Perfect for restaurants where table availability matters. Fewer no-shows, better planning.</p>
+                        <p class="note" data-en="Good when table availability matters. Fewer no-shows. Clearer planning." data-ro="Bun când contează disponibilitatea meselor. Mai puține absențe. Planificare mai clară.">Good when table availability matters. Fewer no-shows. Clearer planning.</p>
                     </div>
 
                     <div class="module-card">
@@ -796,7 +796,7 @@ const html = `<!DOCTYPE html>
                             <li data-en="Admin sees reviews for quality control" data-ro="Admin vede recenziile pentru control de calitate">Admin sees reviews for quality control</li>
                             <li class="subtext" data-en="(public reviews appear on Google, internal reviews visible to staff only)" data-ro="(recenziile publice apar pe Google, recenziile interne sunt doar pentru staff)">(public reviews appear on Google, internal reviews visible to staff only)</li>
                         </ul>
-                        <p class="note" data-en="Builds authentic feedback. Incentivizes repeat visits. Win-win." data-ro="Construiește feedback autentic. Încurajează vizite repetate. Câștig pentru toți.">Builds authentic feedback. Incentivizes repeat visits. Win-win.</p>
+                        <p class="note" data-en="Real feedback from real diners, and a reason to come back." data-ro="Feedback real de la oameni reali și un motiv să revină.">Real feedback from real diners, and a reason to come back.</p>
                     </div>
                 </div>
             </div>
@@ -820,7 +820,7 @@ const html = `<!DOCTYPE html>
                             <li data-en="Order status updates in real-time" data-ro="Actualizări status comandă în timp real">Order status updates in real-time</li>
                             <li data-en="Sound & visual alerts (customizable)" data-ro="Alerte sonore și vizuale (personalizabile)">Sound & visual alerts (customizable)</li>
                         </ul>
-                        <p class="note" data-en="Your team never misses an order, reservation, or important customer action." data-ro="Echipa ta nu va rata nicio comandă, rezervare sau acțiune importantă de client.">Your team never misses an order, reservation, or important customer action.</p>
+                        <p class="note" data-en="Your team catches every order, reservation, and call." data-ro="Echipa ta prinde fiecare comandă, rezervare și solicitare.">Your team catches every order, reservation, and call.</p>
                     </div>
 
                     <div class="module-card">
@@ -838,7 +838,7 @@ const html = `<!DOCTYPE html>
                             <li data-en="Send confirmation messages to customers" data-ro="Trimite mesaje de confirmare clienților">Send confirmation messages to customers</li>
                             <li data-en="View & respond to customer reviews" data-ro="Vezi & răspunde la recenziile clienților">View & respond to customer reviews</li>
                         </ul>
-                        <p class="note" data-en="Kitchen knows exactly what to make. Waiters know what to deliver. No confusion." data-ro="Bucătăria știe exact ce să gătească. Chelnerul știe ce să servească. Fără confuzie.">Kitchen knows exactly what to make. Waiters know what to deliver. No confusion.</p>
+                        <p class="note" data-en="The kitchen knows what to cook. The waiters know what to carry." data-ro="Bucătăria știe ce să gătească. Chelnerii știu ce să ducă.">The kitchen knows what to cook. The waiters know what to carry.</p>
                     </div>
                 </div>
             </div>
@@ -851,27 +851,27 @@ const html = `<!DOCTYPE html>
                     <div class="features-grid">
                         <div class="feature-item">
                             <h5 data-en="🔗 Unique QR Codes for Your Tables" data-ro="🔗 Coduri QR Unice pentru Mesele Tale">🔗 Unique QR Codes for Your Tables</h5>
-                            <p data-en="We design and provide unique QR codes for each table. Just print them, place them on your tables, and you're done." data-ro="Proiectez și furnizez coduri QR unice pentru fiecare masă. Doar tipărește, pune pe mese și gata.">We design and provide unique QR codes for each table. Just print them, place them on your tables, and you're done.</p>
+                            <p data-en="We design a unique QR code for each table. You print them, set them on the tables, and you're live." data-ro="Proiectăm un cod QR unic pentru fiecare masă. Le tipărești, le pui pe mese și ești live.">We design a unique QR code for each table. You print them, set them on the tables, and you're live.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="🌐 Website Domain & Setup" data-ro="🌐 Domeniu Website & Configurare">🌐 Website Domain & Setup</h5>
-                            <p data-en="If you do not have a domain already, we help you set it up. We handle the technical side—you focus on your business." data-ro="Dacă nu ai deja un domeniu, te ajutăm să-l configurezi. Noi ne ocupăm de partea tehnică—tu te concentrezi pe afacere.">If you do not have a domain already, we help you set it up. We handle the technical side—you focus on your business.</p>
+                            <p data-en="No domain yet? We set one up. We handle the technical side and you run your business." data-ro="Nu ai domeniu? Îl configurăm noi. Noi ne ocupăm de partea tehnică, tu îți conduci afacerea.">No domain yet? We set one up. We handle the technical side and you run your business.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="👥 In-Person Strategy Meetings" data-ro="👥 Ședințe de Strategie în Persoană">👥 In-Person Strategy Meetings</h5>
-                            <p data-en="We meet with your team to understand your specific business needs, challenges, and goals. We customize APETIT to fit your restaurant perfectly." data-ro="Ne întâlnim direct cu echipa ta pentru a înțelege nevoile, provocările și obiectivele specifice ale businessului tău. Adaptez APETIT perfect pentru restaurantul tău.">We meet with your team to understand your specific business needs, challenges, and goals. We customize APETIT to fit your restaurant perfectly.</p>
+                            <p data-en="We sit down with your team, learn how your venue runs, and shape APETIT around it." data-ro="Ne așezăm cu echipa ta, învățăm cum funcționează localul și modelăm APETIT după el.">We sit down with your team, learn how your venue runs, and shape APETIT around it.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="📍 Entrance Reservation QR Code" data-ro="📍 Cod QR Rezervare la Intrare">📍 Entrance Reservation QR Code</h5>
-                            <p data-en="We provide a QR code for your entrance so walk-ins can book future tables. Converts lost customers into future revenue." data-ro="Furnizez un cod QR la intrare pentru ca clienți spontani să facă rezervări viitoare. Transformă clienți pierduți în venituri viitoare.">We provide a QR code for your entrance so walk-ins can book future tables. Converts lost customers into future revenue.</p>
+                            <p data-en="We give you an entrance QR code so walk-ins can book a table for later. You keep the customers you'd otherwise turn away." data-ro="Îți dăm un cod QR la intrare ca vizitatorii spontani să rezerve o masă pentru altă dată. Păstrezi clienții pe care altfel i-ai pierde.">We give you an entrance QR code so walk-ins can book a table for later. You keep the customers you'd otherwise turn away.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="🔧 Maintenance & Technical Support" data-ro="🔧 Întreținere & Suport Tehnic">🔧 Maintenance & Technical Support</h5>
-                            <p data-en="If anything breaks, we fix it immediately. Updates, security, backups, server health—all included in your price." data-ro="Dacă ceva se strică, o reparăm imediat. Actualizări, securitate, copii de rezervă, sănătate server—totul inclus în preț.">If anything breaks, we fix it immediately. Updates, security, backups, server health—all included in your price.</p>
+                            <p data-en="If something breaks, we fix it. Updates, security, backups, and server health sit inside your price." data-ro="Dacă ceva se strică, reparăm. Actualizări, securitate, backupuri și starea serverului intră în preț.">If something breaks, we fix it. Updates, security, backups, and server health sit inside your price.</p>
                         </div>
                     </div>
                 </div>
@@ -884,14 +884,14 @@ const html = `<!DOCTYPE html>
                 <div class="pricing-section">
                     <div class="pricing-intro">
                         <h3 data-en="Same Platform, Two Ways to Pay" data-ro="Aceeași Platformă, Două Moduri de Plată">Same Platform, Two Ways to Pay</h3>
-                        <p class="intro-text" style="text-align: center; margin-bottom: 0;" data-en="You get exactly the same platform either way — only how you pay differs." data-ro="Primești exact aceeași platformă în ambele cazuri — diferă doar modul în care plătești.">You get exactly the same platform either way — only how you pay differs.</p>
+                        <p class="intro-text" style="text-align: center; margin-bottom: 0;" data-en="You get the same platform either way. Only the payment changes." data-ro="Primești aceeași platformă în ambele cazuri. Diferă doar plata.">You get the same platform either way. Only the payment changes.</p>
                     </div>
 
                     <!-- Everything included (same for both plans) -->
                     <div class="pricing-included">
                         <h4 data-en="Everything Included" data-ro="Totul Inclus">Everything Included</h4>
                         <div class="included-grid">
-                            <span data-en="MODULE 1: Interactive Menu — QR code ordering" data-ro="MODUL 1: Meniu Interactiv — comandă prin cod QR">MODULE 1: Interactive Menu — QR code ordering</span>
+                            <span data-en="MODULE 1: Interactive Menu (QR ordering)" data-ro="MODUL 1: Meniu Interactiv (comandă prin cod QR)">MODULE 1: Interactive Menu (QR ordering)</span>
                             <span data-en="MODULE 2: Reservations & table management" data-ro="MODUL 2: Rezervări & gestionarea meselor">MODULE 2: Reservations & table management</span>
                             <span data-en="Customer reviews & discount rewards" data-ro="Recenzii de la clienți & reduceri">Customer reviews & discount rewards</span>
                             <span data-en="Staff dashboard & real-time notifications" data-ro="Panou personal & notificări în timp real">Staff dashboard & real-time notifications</span>
@@ -928,7 +928,7 @@ const html = `<!DOCTYPE html>
                         </div>
                     </div>
 
-                    <p class="pricing-note" data-en="Need something more? Extra functionality is always welcome — we scope it together and discuss pricing based on the features you want." data-ro="Ai nevoie de ceva în plus? Funcționalitățile suplimentare sunt mereu binevenite — le definim împreună și discutăm prețul în funcție de caracteristicile dorite.">Need something more? Extra functionality is always welcome — we scope it together and discuss pricing based on the features you want.</p>
+                    <p class="pricing-note" data-en="Want something more? Tell us. We scope the feature with you, then price it from there." data-ro="Vrei ceva în plus? Spune-ne. Definim funcția împreună, apoi stabilim prețul de acolo.">Want something more? Tell us. We scope the feature with you, then price it from there.</p>
                 </div>
             </div>
 
@@ -936,7 +936,7 @@ const html = `<!DOCTYPE html>
             <div class="section">
                 <h2 class="section-title" data-en="What We Store (GDPR-Compliant)" data-ro="Ce Stochăm (Conform GDPR)">What We Store (GDPR-Compliant)</h2>
 
-                <p class="intro-text" data-en="We collect only what's necessary. Customers own their data and can delete it anytime." data-ro="Colectez doar ce e necesar. Clienții dețin datele și le pot șterge oricând.">We collect only what's necessary. Customers own their data and can delete it anytime.</p>
+                <p class="intro-text" data-en="We store only what we need. Customers own their data and can delete it anytime." data-ro="Stocăm doar ce ne trebuie. Clienții dețin datele și le pot șterge oricând.">We store only what we need. Customers own their data and can delete it anytime.</p>
 
                 <div class="data-section">
                     <div class="data-grid">
@@ -968,7 +968,7 @@ const html = `<!DOCTYPE html>
                 </div>
 
                 <div class="footnote">
-                    <strong data-en="🔒 Privacy:" data-ro="🔒 Confidențialitate:">🔒 Privacy:</strong> <span data-en="GDPR & CCPA compliant. Customers can request or delete their data anytime. We never sell customer information. Your restaurant owns the customer relationship." data-ro="Conformă GDPR și CCPA. Clienții pot solicita sau șterge datele oricând. Nu vindem niciodată informații despre clienți. Restaurantul tău deține relația cu clienții.">GDPR & CCPA compliant. Customers can request or delete their data anytime. We never sell customer information. Your restaurant owns the customer relationship.</span></p>
+                    <strong data-en="🔒 Privacy:" data-ro="🔒 Confidențialitate:">🔒 Privacy:</strong> <span data-en="GDPR and CCPA compliant. Customers can export or delete their data anytime. We never sell it. The customer relationship stays yours." data-ro="Conformă GDPR și CCPA. Clienții își pot exporta sau șterge datele oricând. Noi nu le vindem. Relația cu clientul rămâne a ta.">GDPR and CCPA compliant. Customers can export or delete their data anytime. We never sell it. The customer relationship stays yours.</span></p>
                 </div>
             </div>
 
@@ -976,7 +976,7 @@ const html = `<!DOCTYPE html>
             <div style="background: linear-gradient(135deg, #3d6b4f 0%, #2e5239 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; margin-top: 40px;">
                 <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 10px;">🔧 <span data-en="Maintenance & Support Included" data-ro="Întreținere & Suport Incluse">Maintenance & Support Included</span></h3>
                 <p style="font-size: 14px; opacity: 0.95; margin: 0;">
-                    <strong data-en="If anything fails or breaks, we fix it." data-ro="Dacă orice se strică, o reparăm.">If anything fails or breaks, we fix it.</strong> <span data-en="Maintenance, updates, and support are included in the price. You don't worry about technical issues—we handle it." data-ro="Întreținerea, actualizările și suportul sunt incluse în preț. Nu te îngrijora de probleme tehnice—noi ne ocupăm.">Maintenance, updates, and support are included in the price. You don't worry about technical issues—we handle it.</span>
+                    <strong data-en="If something breaks, we fix it." data-ro="Dacă ceva se strică, reparăm.">If something breaks, we fix it.</strong> <span data-en="Maintenance, updates, and support live in the price. We handle the technical problems so you don't." data-ro="Întreținerea, actualizările și suportul intră în preț. Noi ne ocupăm de problemele tehnice, ca tu să nu o faci.">Maintenance, updates, and support live in the price. We handle the technical problems so you don't.</span>
                 </p>
             </div>
         </div>

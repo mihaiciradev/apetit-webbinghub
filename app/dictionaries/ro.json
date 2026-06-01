@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "APETIT by WebbingHUB — Platforma digitală pentru ospitalitatea modernă",
-    "description": "APETIT transformă fiecare masă într-o experiență fără cusur: comenzi prin QR, rezervări și un centru de comandă în timp real pentru restaurante, cafenele și hoteluri — by WebbingHUB.",
+    "title": "APETIT by WebbingHUB — Platforma digitală HORECA",
+    "description": "APETIT transformă orice masă în experiență fluidă: comenzi QR, rezervări și recenzii pentru restaurante, cafenele și hoteluri — by WebbingHUB.",
     "keywords": [
       "platformă HORECA",
       "comenzi prin QR",
@@ -30,10 +30,10 @@
   "hero": {
     "badge": "by WebbingHUB",
     "title": "Bătaia digitală a ospitalității moderne.",
-    "subtitle": "APETIT transformă fiecare masă într-o experiență fără cusur pentru oaspeți — comenzi, rezervări și recenzii reunite într-o singură platformă elegantă, construită și întreținută pentru restaurante, cafenele și hoteluri.",
+    "subtitle": "APETIT transformă fiecare masă într-o experiență fără cusur pentru oaspeți. Comenzile, rezervările și recenziile trec printr-o singură platformă, construită și întreținută pentru restaurante, cafenele și hoteluri.",
     "ctaPrimary": "Hai să vorbim despre localul tău",
     "ctaSecondary": "Ce este APETIT?",
-    "about": "APETIT este o platformă digitală pentru restaurante, cafenele și hoteluri. Oaspeții tăi scanează un cod QR la masă pentru a vedea meniul, a comanda, a rezerva și a lăsa recenzii direct de pe telefonul lor — fără nicio aplicație de descărcat — în timp ce echipa ta gestionează totul dintr-un panou simplu. Noi proiectăm, construim și întreținem întregul sistem, ca tu să te poți concentra pe primirea oaspeților.",
+    "about": "APETIT este o platformă digitală pentru restaurante, cafenele și hoteluri. Oaspeții tăi scanează un cod QR la masă pentru a vedea meniul, a comanda, a rezerva și a lăsa recenzii direct de pe telefonul lor, fără nicio aplicație de descărcat. Echipa ta gestionează totul dintr-un singur panou. Noi proiectăm, construim și întreținem sistemul, ca tu să te poți concentra pe primirea oaspeților.",
     "trust": ["Mentenanță inclusă", "Fără aplicație de descărcat", "Conform GDPR"],
     "device": {
       "table": "Masa 7",
@@ -62,12 +62,12 @@
   "platform": {
     "eyebrow": "Platforma",
     "title": "Tot ce are nevoie localul tău, țesut într-o singură experiență.",
-    "intro": "Nu îți dăm doar un instrument și plecăm. APETIT este un serviciu complet — proiectat, livrat și îngrijit — astfel încât tehnologia să dispară, iar ospitalitatea să strălucească.",
+    "intro": "Nu îți dăm doar un instrument și plecăm. APETIT este un serviciu complet. Îl proiectăm, îl instalăm și îl îngrijim, ca tu să te ocupi de ospitalitate, iar noi de tehnologie.",
     "services": [
       {
         "icon": "qr",
         "title": "Comenzi prin cod QR",
-        "body": "Oaspeții scanează, răsfoiesc un meniu frumos în limba lor și comandă de la masă — fără aplicație, fără bătăi de cap, fără așteptare."
+        "body": "Oaspeții scanează, citesc meniul în limba lor și comandă de la masă. Fără aplicație. Fără așteptare."
       },
       {
         "icon": "calendar",
@@ -82,12 +82,12 @@
       {
         "icon": "sparkle",
         "title": "Implicarea oaspeților",
-        "body": "Fidelizare, oferte și atenții la momentul potrivit, care transformă prima vizită în clienți fideli — discret, în fundal."
+        "body": "Fidelizare, oferte și atenții la momentul potrivit transformă prima vizită în clienți fideli, discret, în fundal."
       },
       {
         "icon": "chart",
         "title": "Claritate, nu zgomot",
-        "body": "Semnale clare despre ce iubesc oaspeții tăi și când vin, ca fiecare decizie să fie una informată."
+        "body": "Semnale clare despre ce comandă oaspeții tăi și când vin, ca să decizi pe fapte, nu pe presimțiri."
       },
       {
         "icon": "shield",
@@ -103,12 +103,12 @@
       {
         "n": "01",
         "title": "Te punem la punct",
-        "body": "Meniul tău, mesele tale, brandul tău. Ne ocupăm de construcție, de domeniu și de codurile QR — gata de pus pe masă și de pornit."
+        "body": "Meniul tău, mesele tale, brandul tău. Îl construim, configurăm domeniul și tipărim codurile QR, gata de pus pe masă."
       },
       {
         "n": "02",
         "title": "Oaspeții o trăiesc",
-        "body": "Un scan deschide o experiență fluidă și în spiritul brandului tău: răsfoiesc, comandă, rezervă și lasă recenzii, totul în palmă."
+        "body": "Un scan deschide o experiență în spiritul brandului tău: citesc meniul, comandă, rezervă și lasă recenzii, totul de pe telefonul din mână."
       },
       {
         "n": "03",
@@ -124,7 +124,7 @@
     "props": [
       {
         "title": "Păstrează ce este al tău",
-        "body": "Niciun intermediar care îți ciupește marjele și niciun terț între tine și oaspeții tăi. Relația — și datele — rămân ale tale."
+        "body": "Niciun intermediar nu îți ciupește marjele. Niciun terț nu stă între tine și oaspeții tăi. Relația și datele rămân ale tale."
       },
       {
         "title": "Zero bătăi de cap pentru oaspeți",
@@ -140,19 +140,19 @@
     "a": {
       "eyebrow": "Experiența APETIT",
       "title": "Ia loc la masă.",
-      "body": "Un scan deschide masa. Scaunul se trage. Întâmpinarea începe — înainte să fie rostit un singur cuvânt."
+      "body": "Un scan deschide masa. Scaunul se trage. Întâmpinarea începe înainte să fie rostit un cuvânt."
     },
     "b": {
       "eyebrow": "Iar restul? Rezolvat.",
       "title": "Tu doar primești oaspeții.",
-      "body": "Comenzi, rezervări, luminile, micile detalii — APETIT lucrează discret în fundal, ca fiecare oaspete să se simtă așteptat."
+      "body": "Comenzi, rezervări, luminile, micile detalii. APETIT lucrează în fundal, ca fiecare oaspete să se simtă așteptat."
     },
     "progress": "Ia loc la masă"
   },
   "contact": {
     "eyebrow": "Venim la tine",
     "title": "Gata să dai viață localului tău?",
-    "body": "Nu vindem dintr-o prezentare cu slide-uri. Venim în localul tău, ne așezăm cu echipa ta și ascultăm — păreri sincere de la oamenii care chiar lucrează în sală. Apoi îți arătăm exact cum se potrivește APETIT.",
+    "body": "Nu vindem dintr-o prezentare cu slide-uri. Venim în localul tău, ne așezăm cu echipa ta și ascultăm oamenii care lucrează în sală. Apoi îți arătăm cum se potrivește APETIT.",
     "ctaPrimary": "Hai să vorbim despre servicii",
     "ctaSecondary": "Explorează WebbingHUB",
     "reach": {

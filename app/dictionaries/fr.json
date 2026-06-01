@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "APETIT by WebbingHUB — La plateforme digitale de l'hospitalité moderne",
-    "description": "APETIT transforme chaque table en une expérience client fluide : commande par QR code, réservations et centre de pilotage en temps réel pour restaurants, cafés et hôtels — by WebbingHUB.",
+    "title": "APETIT by WebbingHUB — La plateforme de l'hospitalité",
+    "description": "APETIT transforme chaque table en expérience fluide : commande QR, réservations et suivi en direct pour restaurants, cafés et hôtels — by WebbingHUB.",
     "keywords": [
       "plateforme HORECA",
       "commande par QR code",
@@ -30,10 +30,10 @@
   "hero": {
     "badge": "by WebbingHUB",
     "title": "Le battement numérique de l'hospitalité moderne.",
-    "subtitle": "APETIT transforme chaque table en une expérience fluide pour vos clients — commandes, réservations et avis réunis dans une seule plateforme élégante, conçue et maintenue pour les restaurants, cafés et hôtels.",
+    "subtitle": "APETIT transforme chaque table en une expérience fluide pour vos clients. Commandes, réservations et avis passent par une seule plateforme, conçue et maintenue pour les restaurants, cafés et hôtels.",
     "ctaPrimary": "Parlons de votre établissement",
     "ctaSecondary": "Qu'est-ce qu'APETIT ?",
-    "about": "APETIT est une plateforme numérique pour les restaurants, cafés et hôtels. Vos clients scannent un QR code à table pour consulter le menu, commander, réserver et laisser un avis depuis leur propre téléphone — sans aucune application à télécharger — pendant que votre équipe gère tout depuis un tableau de bord simple. Nous concevons, développons et maintenons l'ensemble du système, pour que vous puissiez vous concentrer sur l'accueil de vos clients.",
+    "about": "APETIT est une plateforme numérique pour les restaurants, cafés et hôtels. Vos clients scannent un QR code à table pour consulter le menu, commander, réserver et laisser un avis depuis leur téléphone, sans aucune application à télécharger. Votre équipe pilote le tout depuis un seul tableau de bord. Nous concevons, développons et maintenons le système, pour que vous puissiez vous concentrer sur l'accueil.",
     "trust": ["Maintenance incluse", "Aucune application à télécharger", "Conforme RGPD"],
     "device": {
       "table": "Table 7",
@@ -62,37 +62,37 @@
   "platform": {
     "eyebrow": "La plateforme",
     "title": "Tout ce dont votre établissement a besoin, réuni en une seule expérience.",
-    "intro": "Nous ne vous laissons pas seul avec un outil. APETIT est un service complet — conçu, livré et entretenu — pour que la technologie s'efface et que l'hospitalité brille.",
+    "intro": "Nous ne vous laissons pas seul avec un outil. APETIT est un service complet. Nous le concevons, l'installons et l'entretenons : vous gérez l'accueil, nous gérons la technique.",
     "services": [
       {
         "icon": "qr",
         "title": "Commande par QR code",
-        "body": "Vos clients scannent, parcourent un menu élégant dans leur langue et commandent depuis la table — sans application, sans friction, sans attente."
+        "body": "Vos clients scannent, lisent le menu dans leur langue et commandent depuis la table. Sans application. Sans attente."
       },
       {
         "icon": "calendar",
         "title": "Des réservations qui remplissent la salle",
-        "body": "Réservations, confirmations et rappels gérés de bout en bout, pour une salle toujours pleine et des absences qui disparaissent."
+        "body": "Nous gérons réservations, confirmations et rappels de bout en bout, pour une salle pleine et moins d'absences."
       },
       {
         "icon": "pulse",
         "title": "Centre de pilotage en temps réel",
-        "body": "Commandes, demandes et avis arrivent sur l'écran de votre équipe à l'instant même. Rien ne vous échappe."
+        "body": "Commandes, demandes et avis arrivent sur l'écran de votre équipe au moment même. Rien ne vous échappe."
       },
       {
         "icon": "sparkle",
         "title": "Fidélisation des clients",
-        "body": "Fidélité, offres et attentions au bon moment qui transforment les premières visites en habitués — discrètement, en arrière-plan."
+        "body": "Fidélité, offres et attentions au bon moment transforment les premières visites en habitués, en arrière-plan."
       },
       {
         "icon": "chart",
         "title": "De la clarté, pas du bruit",
-        "body": "Des signaux clairs sur ce que vos clients aiment et quand ils viennent, pour que chaque décision soit éclairée."
+        "body": "Des signaux clairs sur ce que vos clients commandent et quand ils viennent, pour décider sur des faits."
       },
       {
         "icon": "shield",
         "title": "Clé en main & maintenu",
-        "body": "Nous l'installons, l'hébergeons et le maintenons. Si quelque chose casse, nous le réparons. Vous, vous vous concentrez sur l'accueil."
+        "body": "Nous l'installons, l'hébergeons et le maintenons. Si quelque chose casse, nous le réparons. Vous vous concentrez sur l'accueil."
       }
     ]
   },
@@ -103,12 +103,12 @@
       {
         "n": "01",
         "title": "Nous vous installons",
-        "body": "Votre menu, vos tables, votre marque. Nous gérons la création, le domaine et les QR codes — prêts à poser et c'est parti."
+        "body": "Votre menu, vos tables, votre marque. Nous créons le tout, configurons le domaine et imprimons les QR codes, prêts à poser."
       },
       {
         "n": "02",
         "title": "Vos clients en profitent",
-        "body": "Un scan ouvre un parcours fluide et à votre image : parcourir, commander, réserver et noter, le tout au creux de la main."
+        "body": "Un scan ouvre un parcours à votre image : lire le menu, commander, réserver et noter, depuis le téléphone."
       },
       {
         "n": "03",
@@ -120,11 +120,11 @@
   "why": {
     "eyebrow": "Pourquoi APETIT",
     "title": "Une technologie qui vous rend à vos clients.",
-    "intro": "La meilleure technologie d'accueil est celle que personne ne remarque. La nôtre travaille en silence pour que votre équipe fasse ce qu'elle fait de mieux.",
+    "intro": "La meilleure technologie d'accueil est celle que personne ne remarque. La nôtre reste en retrait pour que votre équipe fasse ce qu'elle fait de mieux.",
     "props": [
       {
         "title": "Gardez ce qui vous appartient",
-        "body": "Aucun intermédiaire qui rogne vos marges, aucun tiers entre vous et vos clients. La relation — et les données — restent à vous."
+        "body": "Aucun intermédiaire ne rogne vos marges. Aucun tiers ne s'interpose entre vous et vos clients. La relation et les données restent à vous."
       },
       {
         "title": "Zéro friction pour les clients",
@@ -132,7 +132,7 @@
       },
       {
         "title": "Une seule équipe derrière tout",
-        "body": "Stratégie, design, développement et maintenance par une seule agence. Un seul interlocuteur, aucune responsabilité rejetée, aucune surprise."
+        "body": "Stratégie, design, développement et maintenance par une seule agence. Un seul interlocuteur. Aucune responsabilité rejetée, aucune surprise."
       }
     ]
   },
@@ -140,19 +140,19 @@
     "a": {
       "eyebrow": "L'expérience APETIT",
       "title": "Prenez place.",
-      "body": "Un scan ouvre la table. La chaise se glisse. L'accueil commence — avant même le premier mot."
+      "body": "Un scan ouvre la table. La chaise se glisse. L'accueil commence avant le premier mot."
     },
     "b": {
       "eyebrow": "Et le reste ? On s'en occupe.",
       "title": "Vous n'avez qu'à recevoir.",
-      "body": "Commandes, réservations, lumières, petits détails — APETIT travaille discrètement en arrière-plan pour que chaque client se sente attendu."
+      "body": "Commandes, réservations, lumières, petits détails. APETIT travaille en arrière-plan pour que chaque client se sente attendu."
     },
     "progress": "Prenez place"
   },
   "contact": {
     "eyebrow": "Nous venons à vous",
     "title": "Prêt à donner vie à votre établissement ?",
-    "body": "Nous ne vendons pas depuis une présentation. Nous venons dans votre établissement, nous nous asseyons avec votre équipe et nous écoutons — des retours sincères des personnes qui sont vraiment sur le terrain. Ensuite, nous vous montrons exactement comment APETIT s'intègre.",
+    "body": "Nous ne vendons pas depuis une présentation. Nous venons dans votre établissement, nous nous asseyons avec votre équipe et nous écoutons les personnes qui sont sur le terrain. Ensuite, nous vous montrons comment APETIT s'intègre.",
     "ctaPrimary": "Parlons de nos services",
     "ctaSecondary": "Découvrir WebbingHUB",
     "reach": {
@@ -164,7 +164,7 @@
   },
   "footer": {
     "tagline": "by WebbingHUB",
-    "blurb": "Des solutions numériques pour restaurants, cafés et hôtels. Conçues, développées et maintenues pour que vous puissiez vous consacrer à l'accueil.",
+    "blurb": "Des outils numériques pour restaurants, cafés et hôtels. Nous les concevons, développons et maintenons pour que vous vous consacriez à l'accueil.",
     "rights": "Tous droits réservés."
   }
 }

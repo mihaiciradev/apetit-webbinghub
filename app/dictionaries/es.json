@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "APETIT by WebbingHUB — La plataforma digital de la hospitalidad moderna",
-    "description": "APETIT convierte cada mesa en una experiencia fluida: pedidos con QR, reservas y un centro de control en tiempo real para restaurantes, cafeterías y hoteles — by WebbingHUB.",
+    "title": "APETIT by WebbingHUB — Plataforma digital para hostelería",
+    "description": "APETIT convierte cada mesa en una experiencia fluida: pedidos QR, reservas y avisos en vivo para restaurantes, cafeterías y hoteles — by WebbingHUB.",
     "keywords": [
       "plataforma HORECA",
       "pedidos con QR",
@@ -30,10 +30,10 @@
   "hero": {
     "badge": "by WebbingHUB",
     "title": "El pulso digital de la hospitalidad moderna.",
-    "subtitle": "APETIT convierte cada mesa en una experiencia fluida para tus clientes — pedidos, reservas y reseñas reunidos en una sola plataforma elegante, creada y mantenida para restaurantes, cafeterías y hoteles.",
+    "subtitle": "APETIT convierte cada mesa en una experiencia fluida para tus clientes. Los pedidos, las reservas y las reseñas pasan por una sola plataforma, creada y mantenida para restaurantes, cafeterías y hoteles.",
     "ctaPrimary": "Hablemos de tu local",
     "ctaSecondary": "¿Qué es APETIT?",
-    "about": "APETIT es una plataforma digital para restaurantes, cafeterías y hoteles. Tus clientes escanean un código QR en la mesa para ver la carta, pedir, reservar y dejar reseñas desde su propio teléfono —sin ninguna app que descargar— mientras tu equipo lo gestiona todo desde un panel sencillo. Nosotros diseñamos, desarrollamos y mantenemos todo el sistema, para que puedas centrarte en atender a tus clientes.",
+    "about": "APETIT es una plataforma digital para restaurantes, cafeterías y hoteles. Tus clientes escanean un código QR en la mesa para ver la carta, pedir, reservar y dejar reseñas desde su propio teléfono, sin ninguna app que descargar. Tu equipo lo gestiona todo desde un solo panel. Nosotros diseñamos, desarrollamos y mantenemos el sistema, para que puedas centrarte en atender a tus clientes.",
     "trust": ["Mantenimiento incluido", "Sin app que descargar", "Cumple el RGPD"],
     "device": {
       "table": "Mesa 7",
@@ -62,17 +62,17 @@
   "platform": {
     "eyebrow": "La plataforma",
     "title": "Todo lo que tu local necesita, unido en una sola experiencia.",
-    "intro": "No te entregamos una herramienta y desaparecemos. APETIT es un servicio completo — diseñado, entregado y cuidado — para que la tecnología desaparezca y la hospitalidad brille.",
+    "intro": "No te entregamos una herramienta y desaparecemos. APETIT es un servicio completo. Lo diseñamos, lo instalamos y lo cuidamos, para que tú lleves la hospitalidad y nosotros la tecnología.",
     "services": [
       {
         "icon": "qr",
         "title": "Pedidos con código QR",
-        "body": "Tus clientes escanean, exploran un menú elegante en su idioma y piden desde la mesa — sin app, sin fricción, sin esperas."
+        "body": "Tus clientes escanean, leen la carta en su idioma y piden desde la mesa. Sin app. Sin esperas."
       },
       {
         "icon": "calendar",
         "title": "Reservas que llenan mesas",
-        "body": "Reservas, confirmaciones y recordatorios gestionados de principio a fin, para que tu sala esté siempre llena y las ausencias desaparezcan."
+        "body": "Gestionamos reservas, confirmaciones y recordatorios de principio a fin, para que tu sala se mantenga llena y bajen las ausencias."
       },
       {
         "icon": "pulse",
@@ -82,12 +82,12 @@
       {
         "icon": "sparkle",
         "title": "Fidelización de clientes",
-        "body": "Lealtad, ofertas y detalles en el momento justo que convierten la primera visita en un cliente habitual — trabajando en silencio, en segundo plano."
+        "body": "Lealtad, ofertas y detalles en el momento justo convierten la primera visita en un cliente habitual, trabajando en segundo plano."
       },
       {
         "icon": "chart",
         "title": "Claridad, no ruido",
-        "body": "Señales claras sobre lo que tus clientes adoran y cuándo vienen, para que cada decisión esté bien informada."
+        "body": "Señales claras sobre lo que piden tus clientes y cuándo vienen, para que decidas con datos, no con corazonadas."
       },
       {
         "icon": "shield",
@@ -103,12 +103,12 @@
       {
         "n": "01",
         "title": "Te lo dejamos listo",
-        "body": "Tu menú, tus mesas, tu marca. Nos ocupamos de la creación, el dominio y los códigos QR — listos para colocar y empezar."
+        "body": "Tu carta, tus mesas, tu marca. Lo creamos, configuramos el dominio e imprimimos los códigos QR, listos para colocar."
       },
       {
         "n": "02",
         "title": "Tus clientes lo viven",
-        "body": "Un escaneo abre un recorrido fluido y con tu identidad: explorar, pedir, reservar y reseñar, todo en la palma de la mano."
+        "body": "Un escaneo abre un recorrido con tu identidad: leer la carta, pedir, reservar y reseñar, todo desde el teléfono que llevan en la mano."
       },
       {
         "n": "03",
@@ -124,7 +124,7 @@
     "props": [
       {
         "title": "Conserva lo que es tuyo",
-        "body": "Sin intermediarios que recortan tus márgenes ni terceros entre tú y tus clientes. La relación — y los datos — siguen siendo tuyos."
+        "body": "Ningún intermediario recorta tus márgenes. Ningún tercero se interpone entre tú y tus clientes. La relación y los datos siguen siendo tuyos."
       },
       {
         "title": "Cero fricción para tus clientes",
@@ -140,19 +140,19 @@
     "a": {
       "eyebrow": "La experiencia APETIT",
       "title": "Toma asiento.",
-      "body": "Un escaneo abre la mesa. La silla se desliza. La bienvenida empieza — antes de pronunciar una sola palabra."
+      "body": "Un escaneo abre la mesa. La silla se desliza. La bienvenida empieza antes de pronunciar una palabra."
     },
     "b": {
       "eyebrow": "¿Y el resto? Resuelto.",
       "title": "Tú solo recibe.",
-      "body": "Pedidos, reservas, las luces, los pequeños detalles — APETIT funciona en silencio en segundo plano para que cada cliente se sienta esperado."
+      "body": "Pedidos, reservas, las luces, los pequeños detalles. APETIT funciona en segundo plano para que cada cliente se sienta esperado."
     },
     "progress": "Toma asiento"
   },
   "contact": {
     "eyebrow": "Vamos a ti",
     "title": "¿Listo para dar vida a tu local?",
-    "body": "No vendemos desde una presentación. Visitamos tu local, nos sentamos con tu equipo y escuchamos — opiniones sinceras de quienes de verdad trabajan en la sala. Después te mostramos exactamente cómo encaja APETIT.",
+    "body": "No vendemos desde una presentación. Visitamos tu local, nos sentamos con tu equipo y escuchamos a quienes trabajan en la sala. Después te mostramos cómo encaja APETIT.",
     "ctaPrimary": "Hablemos de servicios",
     "ctaSecondary": "Explorar WebbingHUB",
     "reach": {
