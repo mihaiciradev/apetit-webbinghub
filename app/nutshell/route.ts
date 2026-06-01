@@ -710,6 +710,8 @@ const html = `<!DOCTYPE html>
             <!-- Introduction -->
             <div class="section">
                 <p class="intro-text" data-en="APETIT is a QR platform for restaurants, cafés, and hotels. Customers scan the code on their table, read the menu, order, and book. You see every order and reservation the moment it lands, and you keep your customer data." data-ro="APETIT e o platformă QR pentru restaurante, cafenele și hoteluri. Clienții scanează codul de pe masă, citesc meniul, comandă și rezervă. Vezi fiecare comandă și rezervare în clipa în care apare, iar datele clienților rămân ale tale.">APETIT is a QR platform for restaurants, cafés, and hotels. Customers scan the code on their table, read the menu, order, and book. You see every order and reservation the moment it lands, and you keep your customer data.</p>
+                <p class="intro-text" data-en="Core features come with every APETIT build, at no extra cost. Add-ons are optional, and you switch them on only when you want them." data-ro="Funcțiile esențiale (Core) vin cu fiecare instalare APETIT, fără cost suplimentar. Modulele opționale rămân la alegerea ta: le activezi doar când le vrei." style="margin-bottom: 16px;">Core features come with every APETIT build, at no extra cost. Add-ons are optional, and you switch them on only when you want them.</p>
+                <p class="intro-text" data-en="This document walks through the whole platform: the QR menu your guests order from, reservations and reviews, the dashboards your team works in, what we set up for you, pricing, and the data we store." data-ro="Acest document parcurge toată platforma: meniul QR de la care comandă oaspeții, rezervările și recenziile, panourile în care lucrează echipa ta, ce configurăm noi pentru tine, prețurile și datele pe care le stocăm." style="margin-bottom: 0;">This document walks through the whole platform: the QR menu your guests order from, reservations and reviews, the dashboards your team works in, what we set up for you, pricing, and the data we store.</p>
             </div>
 
             <!-- MODULE 1 -->
@@ -727,40 +729,19 @@ const html = `<!DOCTYPE html>
                             <li data-en="Browse organized by category" data-ro="Răsfoiește organizat pe categorii">Browse organized by category</li>
                             <li data-en="See photos, descriptions, prices" data-ro="Vezi fotografii, descrieri, prețuri">See photos, descriptions, prices</li>
                             <li data-en="Add items to cart, adjust quantities" data-ro="Adaugă articole la coș, ajustează cantități">Add items to cart, adjust quantities</li>
-                            <li data-en="View order status in real-time" data-ro="Vezi status comenzii în timp real">View order status in real-time</li>
                             <li data-en="Keep order history for quick reorders" data-ro="Păstrează istoric comenzi pentru recomandări rapide">Keep order history for quick reorders</li>
                             <li data-en="Filter by dietary needs (vegan, allergies)" data-ro="Filtrează după nevoi dietetice (vegan, alergii)">Filter by dietary needs (vegan, allergies)</li>
                             <li data-en="Rate dishes, leave feedback" data-ro="Evaluează mâncăruri, lasă feedback">Rate dishes, leave feedback</li>
                             <li data-en="Choose: Dine-in or Takeaway" data-ro="Alege: Mâncare la local sau de luat">Choose: Dine-in or Takeaway</li>
+                            <li data-en="Call the waiter with one tap; staff get the table number" data-ro="Cheamă chelnerul cu o atingere; personalul primește numărul mesei">Call the waiter with one tap; staff get the table number</li>
+                            <li data-en="Pay at the table by cash or card" data-ro="Plătește la masă cu numerar sau card">Pay at the table by cash or card</li>
+                            <li data-en="Pay online in the app (optional add-on)" data-ro="Plătește online în aplicație (modul opțional)">Pay online in the app (optional add-on)</li>
                         </ul>
-                        <p class="note" data-en="No app to download. Customers scan the code and order." data-ro="Fără aplicație de descărcat. Clienții scanează codul și comandă.">No app to download. Customers scan the code and order.</p>
+                        <p class="note" data-en="No app to download. Customers scan the code, order, call the waiter, and pay, all from the table." data-ro="Fără aplicație de descărcat. Clienții scanează codul, comandă, cheamă chelnerul și plătesc, totul de la masă.">No app to download. Customers scan the code, order, call the waiter, and pay, all from the table.</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Additional Features -->
-            <div class="section">
-                <h2 class="section-title" data-en="Interactive Menu Features" data-ro="Caracteristici Meniu Interactiv">Interactive Menu Features</h2>
-
-                <div class="feature-section">
-                    <div class="features-grid">
-                        <div class="feature-item">
-                            <h5 data-en="🔔 Call Waiter Button" data-ro="🔔 Buton Apelează Chelnerul">🔔 Call Waiter Button</h5>
-                            <p data-en="Customers tap a button to call the waiter. Staff get an alert with the table number. Nobody waves across the room." data-ro="Clienții apasă un buton ca să cheme chelnerul. Personalul primește o alertă cu numărul mesei. Nimeni nu mai face semne prin sală.">Customers tap a button to call the waiter. Staff get an alert with the table number. Nobody waves across the room.</p>
-                        </div>
-
-                        <div class="feature-item">
-                            <h5 data-en="💳 Payment at Table" data-ro="💳 Plată la Masă">💳 Payment at Table</h5>
-                            <p data-en="Two ways to pay: cash, where the waiter collects, or card on a terminal at the table. Everyone knows who pays what." data-ro="Două moduri de plată: numerar, încasat de chelner, sau card la terminalul de la masă. Toți știu cine cât plătește.">Two ways to pay: cash, where the waiter collects, or card on a terminal at the table. Everyone knows who pays what.</p>
-                        </div>
-
-                        <div class="feature-item">
-                            <h5 data-en="💻 Online Payment (Optional Add-On)" data-ro="💻 Plată Online (Modul Optional)">💻 Online Payment (Optional Add-On)</h5>
-                            <p data-en="Let customers pay in the app before the waiter reaches the table. You choose whether to turn it on for your menu." data-ro="Lasă clienții să plătească în aplicație înainte să ajungă chelnerul. Tu alegi dacă o activezi pentru meniul tău.">Let customers pay in the app before the waiter reaches the table. You choose whether to turn it on for your menu.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="section">
                 <h2 class="section-title" data-en="MODULE 2: Reservations & Reviews" data-ro="MODUL 2: Rezervări & Recenzii">MODULE 2: Reservations & Reviews</h2>
 
@@ -789,9 +770,9 @@ const html = `<!DOCTYPE html>
                         </h3>
                         <ul>
                             <li data-en="Leave reviews after dining" data-ro="Lasă recenzii după ce mânânci">Leave reviews after dining</li>
-                            <li data-en="Rate: 1-5 stars, add photos" data-ro="Evaluează: 1-5 stele, adaugă poze">Rate: 1-5 stars, add photos</li>
-                            <li data-en="Targeted reviews: Service, Waiter, Venue, Food/Kitchen" data-ro="Recenzii specifice: Serviciu, Chelner, Spațiu, Mâncare/Bucătărie">Targeted reviews: Service, Waiter, Venue, Food/Kitchen</li>
-                            <li data-en="Earn 8% discount for positive reviews (paid via app)" data-ro="Câștigă 8% reducere pentru recenzii pozitive (plătit prin app)">Earn 8% discount for positive reviews (paid via app)</li>
+                            <li data-en="Rate dishes and add photos" data-ro="Evaluează preparatele și adaugă poze">Rate dishes and add photos</li>
+                            <li data-en="Separate reviews for service, staff, and food" data-ro="Recenzii separate pentru serviciu, personal și mâncare">Separate reviews for service, staff, and food</li>
+                            <li data-en="Earn 8% discount for positive reviews" data-ro="Câștigă 8% reducere pentru recenzii pozitive">Earn 8% discount for positive reviews</li>
                             <li data-en="Discount code valid for next order" data-ro="Cod reducere valabil pentru comanda următoare">Discount code valid for next order</li>
                             <li data-en="Admin sees reviews for quality control" data-ro="Admin vede recenziile pentru control de calitate">Admin sees reviews for quality control</li>
                             <li class="subtext" data-en="(public reviews appear on Google, internal reviews visible to staff only)" data-ro="(recenziile publice apar pe Google, recenziile interne sunt doar pentru staff)">(public reviews appear on Google, internal reviews visible to staff only)</li>
@@ -801,44 +782,40 @@ const html = `<!DOCTYPE html>
                 </div>
             </div>
 
-            <!-- STAFF DASHBOARD -->
+            <!-- DASHBOARDS -->
             <div class="section">
-                <h2 class="section-title" data-en="Staff Dashboard & Notifications" data-ro="Panoul Personal & Notificări">Staff Dashboard & Notifications</h2>
+                <h2 class="section-title" data-en="Three Dashboards: Admin, Kitchen & Bar" data-ro="Trei Panouri: Admin, Bucătărie & Bar">Three Dashboards: Admin, Kitchen & Bar</h2>
+
+                <p class="intro-text" data-en="APETIT runs on three dashboards, one for each part of your team. Each one shows only what that role needs." data-ro="APETIT funcționează pe trei panouri, câte unul pentru fiecare parte a echipei. Fiecare arată doar ce-i trebuie acelui rol.">APETIT runs on three dashboards, one for each part of your team. Each one shows only what that role needs.</p>
 
                 <div class="modules-grid">
                     <div class="module-card">
                         <h3>
-                            <span data-en="📱 Real-Time Staff Notifications" data-ro="📱 Notificări Personal în Timp Real">📱 Real-Time Staff Notifications</span>
-                            <span class="label" data-en="MODULE 1 CORE" data-ro="MODUL 1 ESENȚIAL">MODULE 1 CORE</span>
+                            <span data-en="🛎️ Admin Dashboard" data-ro="🛎️ Panou Admin">🛎️ Admin Dashboard</span>
+                            <span class="label" data-en="Core" data-ro="Esențial">Core</span>
                         </h3>
                         <ul>
-                            <li data-en="New order alert → staff tablet/phone" data-ro="Alertă comandă nouă → tableta/telefon personal">New order alert → staff tablet/phone</li>
-                            <li data-en="New reservation notification" data-ro="Notificare rezervare nouă">New reservation notification</li>
-                            <li data-en="Customer calls server → instant alert" data-ro="Client apelează chelnerul → alertă instantă">Customer calls server → instant alert</li>
-                            <li data-en="New review posted → notified immediately" data-ro="Recenzie nouă publicată → notificare imediată">New review posted → notified immediately</li>
-                            <li data-en="Negative review alert → act quickly" data-ro="Alertă recenzie negativă → acționează rapid">Negative review alert → act quickly</li>
-                            <li data-en="Order status updates in real-time" data-ro="Actualizări status comandă în timp real">Order status updates in real-time</li>
-                            <li data-en="Sound & visual alerts (customizable)" data-ro="Alerte sonore și vizuale (personalizabile)">Sound & visual alerts (customizable)</li>
+                            <li data-en="Live alerts for new orders, reservations, waiter calls, and reviews" data-ro="Alerte live pentru comenzi noi, rezervări, apeluri la chelner și recenzii">Live alerts for new orders, reservations, waiter calls, and reviews</li>
+                            <li data-en="Manage every order and reservation from one screen" data-ro="Gestionează fiecare comandă și rezervare dintr-un singur ecran">Manage every order and reservation from one screen</li>
+                            <li data-en="View history of orders" data-ro="Vezi istoricul comenzilor">View history of orders</li>
+                            <li data-en="Stats: revenue, peak hours, customer count, repeat-visitor %" data-ro="Statistici: venit, ore de vârf, număr clienți, % clienți care revin">Stats: revenue, peak hours, customer count, repeat-visitor %</li>
+                            <li data-en="Config: restaurant info, pricing" data-ro="Configurare: info restaurant, prețuri">Config: restaurant info, pricing</li>
                         </ul>
-                        <p class="note" data-en="Your team catches every order, reservation, and call." data-ro="Echipa ta prinde fiecare comandă, rezervare și solicitare.">Your team catches every order, reservation, and call.</p>
                     </div>
 
                     <div class="module-card">
                         <h3>
-                            <span data-en="📊 Order & Reservation Management" data-ro="📊 Gestionare Comenzi & Rezervări">📊 Order & Reservation Management</span>
-                            <span class="label" data-en="MODULE 2 CORE" data-ro="MODUL 2 ESENȚIAL">MODULE 2 CORE</span>
+                            <span data-en="👨‍🍳 Kitchen & Bar Dashboard (KDS)" data-ro="👨‍🍳 Panou Bucătărie & Bar (KDS)">👨‍🍳 Kitchen & Bar Dashboard (KDS)</span>
+                            <span class="label" data-en="Core" data-ro="Esențial">Core</span>
                         </h3>
                         <ul>
-                            <li data-en="View all pending orders with table number" data-ro="Vezi toate comenzile în așteptare cu numărul mesei">View all pending orders with table number</li>
-                            <li data-en="See order status (pending, preparing, ready)" data-ro="Vezi status comandă (în așteptare, se pregătește, gată)">See order status (pending, preparing, ready)</li>
-                            <li data-en="Manage table reservations for the day" data-ro="Gestionează rezervări de mese pentru ziua">Manage table reservations for the day</li>
-                            <li data-en="Confirm/cancel reservations" data-ro="Confirmă/anulează rezervări">Confirm/cancel reservations</li>
-                            <li data-en="Track no-shows automatically" data-ro="Urmărește absențele automat">Track no-shows automatically</li>
-                            <li data-en="See special requests (allergies, etc.)" data-ro="Vezi cereri speciale (alergii, etc.)">See special requests (allergies, etc.)</li>
-                            <li data-en="Send confirmation messages to customers" data-ro="Trimite mesaje de confirmare clienților">Send confirmation messages to customers</li>
-                            <li data-en="View & respond to customer reviews" data-ro="Vezi & răspunde la recenziile clienților">View & respond to customer reviews</li>
+                            <li data-en="Orders on screens, not paper, grouped by station" data-ro="Comenzi pe ecrane, nu pe hârtie, grupate pe stații">Orders on screens, not paper, grouped by station</li>
+                            <li data-en="Color-coded by wait time, so slow tickets stand out" data-ro="Codate pe culori după timpul de așteptare, ca tichetele întârziate să iasă în evidență">Color-coded by wait time, so slow tickets stand out</li>
+                            <li data-en="Mark a ticket ready and the waiter gets alerted" data-ro="Marchezi un tichet ca gata și chelnerul e anunțat">Mark a ticket ready and the waiter gets alerted</li>
+                            <li data-en="Each ticket shows the table, items, and wait time" data-ro="Fiecare tichet arată masa, produsele și timpul de așteptare">Each ticket shows the table, items, and wait time</li>
+                            <li data-en="The bar runs its own queue alongside the kitchen" data-ro="Barul își ține propria coadă, alături de bucătărie">The bar runs its own queue alongside the kitchen</li>
                         </ul>
-                        <p class="note" data-en="The kitchen knows what to cook. The waiters know what to carry." data-ro="Bucătăria știe ce să gătească. Chelnerii știu ce să ducă.">The kitchen knows what to cook. The waiters know what to carry.</p>
+                        <p class="note" data-en="Highly customizable to how your restaurant works." data-ro="Foarte personalizabil după felul în care funcționează restaurantul tău.">Highly customizable to how your restaurant works.</p>
                     </div>
                 </div>
             </div>

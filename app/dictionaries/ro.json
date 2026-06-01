@@ -67,12 +67,12 @@
       {
         "icon": "qr",
         "title": "Comenzi prin cod QR",
-        "body": "Oaspeții scanează, citesc meniul în limba lor și comandă de la masă. Fără aplicație. Fără așteptare."
+        "body": "Oaspeții scanează, citesc meniul în limba lor, comandă și cheamă chelnerul de la masă. Fără aplicație. Fără așteptare."
       },
       {
         "icon": "calendar",
         "title": "Rezervări care umplu mesele",
-        "body": "Rezervări, confirmări și memento-uri gestionate de la cap la coadă, ca sala să rămână plină, iar neprezentările să dispară."
+        "body": "Rezervări, confirmări și memento-uri gestionate de la cap la coadă: sala rămâne plină, neprezentările dispar, iar clienții spontani devin rezervări viitoare."
       },
       {
         "icon": "pulse",

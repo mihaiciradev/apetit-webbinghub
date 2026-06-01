@@ -67,12 +67,12 @@
       {
         "icon": "qr",
         "title": "Commande par QR code",
-        "body": "Vos clients scannent, lisent le menu dans leur langue et commandent depuis la table. Sans application. Sans attente."
+        "body": "Vos clients scannent, lisent le menu dans leur langue, commandent et appellent le serveur depuis la table. Sans application. Sans attente."
       },
       {
         "icon": "calendar",
         "title": "Des réservations qui remplissent la salle",
-        "body": "Nous gérons réservations, confirmations et rappels de bout en bout, pour une salle pleine et moins d'absences."
+        "body": "Nous gérons réservations, confirmations et rappels de bout en bout : salle pleine, moins d'absences, et les clients sans réservation deviennent des réservations futures."
       },
       {
         "icon": "pulse",
