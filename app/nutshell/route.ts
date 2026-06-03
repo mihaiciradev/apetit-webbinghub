@@ -732,10 +732,10 @@ const html = `<!DOCTYPE html>
                             <li data-en="Keep order history for quick reorders" data-ro="Păstrează istoric comenzi pentru recomandări rapide">Keep order history for quick reorders</li>
                             <li data-en="Filter by dietary needs (vegan, allergies)" data-ro="Filtrează după nevoi dietetice (vegan, alergii)">Filter by dietary needs (vegan, allergies)</li>
                             <li data-en="Rate dishes, leave feedback" data-ro="Evaluează mâncăruri, lasă feedback">Rate dishes, leave feedback</li>
-                            <li data-en="Choose: Dine-in or Takeaway" data-ro="Alege: Mâncare la local sau de luat">Choose: Dine-in or Takeaway</li>
+                            <li data-en="Choose: Dine-in or Takeaway" data-ro="Alege: Mâncare la local sau luat la pachet">Choose: Dine-in or Takeaway</li>
                             <li data-en="Call the waiter with one tap; staff get the table number" data-ro="Cheamă chelnerul cu o atingere; personalul primește numărul mesei">Call the waiter with one tap; staff get the table number</li>
                             <li data-en="Pay at the table by cash or card" data-ro="Plătește la masă cu numerar sau card">Pay at the table by cash or card</li>
-                            <li data-en="Pay online in the app (optional add-on)" data-ro="Plătește online în aplicație (modul opțional)">Pay online in the app (optional add-on)</li>
+                            <li><span data-en="Pay online in the app" data-ro="Plătește online în aplicație">Pay online in the app</span> <strong data-en="(optional)" data-ro="(opțional)">(optional)</strong></li>
                         </ul>
                         <p class="note" data-en="No app to download. Customers scan the code, order, call the waiter, and pay, all from the table." data-ro="Fără aplicație de descărcat. Clienții scanează codul, comandă, cheamă chelnerul și plătesc, totul de la masă.">No app to download. Customers scan the code, order, call the waiter, and pay, all from the table.</p>
                     </div>
@@ -755,7 +755,6 @@ const html = `<!DOCTYPE html>
                             <li data-en="Pick date, time, party size" data-ro="Alege dată, oră, mărimea grupului">Pick date, time, party size</li>
                             <li data-en="Get email confirmation immediately" data-ro="Primește confirmarea email imediat">Get email confirmation immediately</li>
                             <li data-en="Modify or cancel anytime" data-ro="Modifică sau anulează oricând">Modify or cancel anytime</li>
-                            <li data-en="See all past and upcoming bookings" data-ro="Vezi toate rezervările anterioare și viitoare">See all past and upcoming bookings</li>
                             <li data-en="Special notes (high chair, quiet table, etc.)" data-ro="Note speciale (scaun pentru copii, masă liniștit, etc.)">Special notes (high chair, quiet table, etc.)</li>
                             <li data-en="Entrance QR code for walk-in bookings" data-ro="Cod QR la intrare pentru rezervări spontane">Entrance QR code for walk-in bookings</li>
                             <li class="subtext" data-en="(shows immediate availability - converts walk-ins to future bookings)" data-ro="(arată disponibilitate imediată - transformă clienți spontani în rezervări viitoare)">(shows immediate availability - converts walk-ins to future bookings)</li>
@@ -772,8 +771,9 @@ const html = `<!DOCTYPE html>
                             <li data-en="Leave reviews after dining" data-ro="Lasă recenzii după ce mânânci">Leave reviews after dining</li>
                             <li data-en="Rate dishes and add photos" data-ro="Evaluează preparatele și adaugă poze">Rate dishes and add photos</li>
                             <li data-en="Separate reviews for service, staff, and food" data-ro="Recenzii separate pentru serviciu, personal și mâncare">Separate reviews for service, staff, and food</li>
-                            <li data-en="Earn 8% discount for positive reviews" data-ro="Câștigă 8% reducere pentru recenzii pozitive">Earn 8% discount for positive reviews</li>
+                            <li data-en="Earn X% discount for positive reviews" data-ro="Câștigă X% reducere pentru recenzii pozitive">Earn X% discount for positive reviews</li>
                             <li data-en="Discount code valid for next order" data-ro="Cod reducere valabil pentru comanda următoare">Discount code valid for next order</li>
+                            <li><span data-en="Newsletter system" data-ro="Sistem de newsletter">Newsletter system</span> <strong data-en="(optional)" data-ro="(opțional)">(optional)</strong></li>
                             <li data-en="Admin sees reviews for quality control" data-ro="Admin vede recenziile pentru control de calitate">Admin sees reviews for quality control</li>
                             <li class="subtext" data-en="(public reviews appear on Google, internal reviews visible to staff only)" data-ro="(recenziile publice apar pe Google, recenziile interne sunt doar pentru staff)">(public reviews appear on Google, internal reviews visible to staff only)</li>
                         </ul>
@@ -784,9 +784,9 @@ const html = `<!DOCTYPE html>
 
             <!-- DASHBOARDS -->
             <div class="section">
-                <h2 class="section-title" data-en="Three Dashboards: Admin, Kitchen & Bar" data-ro="Trei Panouri: Admin, Bucătărie & Bar">Three Dashboards: Admin, Kitchen & Bar</h2>
+                <h2 class="section-title" data-en="Panels: Admin, Kitchen & Bar" data-ro="Panouri: Admin, Bucătărie & Bar">Panels: Admin, Kitchen & Bar</h2>
 
-                <p class="intro-text" data-en="APETIT runs on three dashboards, one for each part of your team. Each one shows only what that role needs." data-ro="APETIT funcționează pe trei panouri, câte unul pentru fiecare parte a echipei. Fiecare arată doar ce-i trebuie acelui rol.">APETIT runs on three dashboards, one for each part of your team. Each one shows only what that role needs.</p>
+                <p class="intro-text" data-en="APETIT runs on dedicated panels, one for each part of your team. Each one shows only what that role needs." data-ro="APETIT funcționează pe panouri dedicate, câte unul pentru fiecare parte a echipei. Fiecare arată doar ce-i trebuie acelui rol.">APETIT runs on dedicated panels, one for each part of your team. Each one shows only what that role needs.</p>
 
                 <div class="modules-grid">
                     <div class="module-card">
@@ -809,13 +809,13 @@ const html = `<!DOCTYPE html>
                             <span class="label" data-en="Core" data-ro="Esențial">Core</span>
                         </h3>
                         <ul>
-                            <li data-en="Orders on screens, not paper, grouped by station" data-ro="Comenzi pe ecrane, nu pe hârtie, grupate pe stații">Orders on screens, not paper, grouped by station</li>
+                            <li data-en="Orders on screens, not paper" data-ro="Comenzi pe ecrane, nu pe hârtie">Orders on screens, not paper</li>
                             <li data-en="Color-coded by wait time, so slow tickets stand out" data-ro="Codate pe culori după timpul de așteptare, ca tichetele întârziate să iasă în evidență">Color-coded by wait time, so slow tickets stand out</li>
                             <li data-en="Mark a ticket ready and the waiter gets alerted" data-ro="Marchezi un tichet ca gata și chelnerul e anunțat">Mark a ticket ready and the waiter gets alerted</li>
                             <li data-en="Each ticket shows the table, items, and wait time" data-ro="Fiecare tichet arată masa, produsele și timpul de așteptare">Each ticket shows the table, items, and wait time</li>
                             <li data-en="The bar runs its own queue alongside the kitchen" data-ro="Barul își ține propria coadă, alături de bucătărie">The bar runs its own queue alongside the kitchen</li>
                         </ul>
-                        <p class="note" data-en="Highly customizable to how your restaurant works." data-ro="Foarte personalizabil după felul în care funcționează restaurantul tău.">Highly customizable to how your restaurant works.</p>
+                        <p class="note" data-en="Customizable to how your restaurant works." data-ro="Personalizabil după felul în care funcționează restaurantul tău.">Customizable to how your restaurant works.</p>
                     </div>
                 </div>
             </div>
@@ -860,13 +860,13 @@ const html = `<!DOCTYPE html>
 
                 <div class="pricing-section">
                     <div class="pricing-intro">
-                        <h3 data-en="Same Platform, Two Ways to Pay" data-ro="Aceeași Platformă, Două Moduri de Plată">Same Platform, Two Ways to Pay</h3>
+                        <h3 data-en="Same Platform, Two Ways to Pay" data-ro="Aceeași platformă, două moduri de plată">Same Platform, Two Ways to Pay</h3>
                         <p class="intro-text" style="text-align: center; margin-bottom: 0;" data-en="You get the same platform either way. Only the payment changes." data-ro="Primești aceeași platformă în ambele cazuri. Diferă doar plata.">You get the same platform either way. Only the payment changes.</p>
                     </div>
 
                     <!-- Everything included (same for both plans) -->
                     <div class="pricing-included">
-                        <h4 data-en="Everything Included" data-ro="Totul Inclus">Everything Included</h4>
+                        <h4 data-en="The Essential Package" data-ro="Pachetul Esențial">The Essential Package</h4>
                         <div class="included-grid">
                             <span data-en="MODULE 1: Interactive Menu (QR ordering)" data-ro="MODUL 1: Meniu Interactiv (comandă prin cod QR)">MODULE 1: Interactive Menu (QR ordering)</span>
                             <span data-en="MODULE 2: Reservations & table management" data-ro="MODUL 2: Rezervări & gestionarea meselor">MODULE 2: Reservations & table management</span>
@@ -953,7 +953,7 @@ const html = `<!DOCTYPE html>
             <div style="background: linear-gradient(135deg, #3d6b4f 0%, #2e5239 100%); color: white; padding: 30px; border-radius: 10px; text-align: center; margin-top: 40px;">
                 <h3 style="font-size: 18px; font-weight: 700; margin-bottom: 10px;">🔧 <span data-en="Maintenance & Support Included" data-ro="Întreținere & Suport Incluse">Maintenance & Support Included</span></h3>
                 <p style="font-size: 14px; opacity: 0.95; margin: 0;">
-                    <strong data-en="If something breaks, we fix it." data-ro="Dacă ceva se strică, reparăm.">If something breaks, we fix it.</strong> <span data-en="Maintenance, updates, and support live in the price. We handle the technical problems so you don't." data-ro="Întreținerea, actualizările și suportul intră în preț. Noi ne ocupăm de problemele tehnice, ca tu să nu o faci.">Maintenance, updates, and support live in the price. We handle the technical problems so you don't.</span>
+                    <strong data-en="If something breaks, we fix it." data-ro="Dacă ceva se strică, reparăm.">If something breaks, we fix it.</strong> <span data-en="Maintenance, updates, and support live in the price. We handle the technical problems so you don't." data-ro="Întreținerea, actualizările și suportul intră în preț. Noi ducem partea tehnică, tu te concentrezi pe restaurant.">Maintenance, updates, and support live in the price. We handle the technical problems so you don't.</span>
                 </p>
             </div>
         </div>
