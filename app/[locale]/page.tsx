@@ -49,6 +49,7 @@ export default async function Home({
         locale={locale}
         title={t.meta.title}
         description={t.meta.description}
+        faq={t.faq.items}
       />
       <AnchorScroll />
       <Nav locale={locale} dict={t.nav} />
@@ -84,7 +85,7 @@ export default async function Home({
               </p>
             </Reveal>
 
-            <Reveal delay={240}>
+            <Reveal delay={240} className="relative z-20">
               <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   href="#contact"
@@ -303,10 +304,80 @@ export default async function Home({
         </div>
       </section>
 
+      {/* ===================== BEYOND APETIT / CUSTOM SOFTWARE ===================== */}
+      <section id="systems" className="scroll-mt-28 border-y border-sand bg-cream-deep">
+        <div className="mx-auto max-w-4xl px-6 py-20 text-center lg:py-24">
+          <Reveal>
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
+              {t.systems.eyebrow}
+            </p>
+          </Reveal>
+          <Reveal delay={80}>
+            <h2 className="mx-auto mt-4 max-w-3xl font-display text-3xl font-semibold leading-tight tracking-tight text-forest-950 text-balance hyphens-auto break-words sm:text-4xl">
+              {t.systems.title}
+            </h2>
+          </Reveal>
+          <Reveal delay={140}>
+            <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft hyphens-auto break-words">
+              {t.systems.body}
+            </p>
+          </Reveal>
+          <Reveal delay={200}>
+            <div className="mt-8 flex flex-wrap justify-center gap-3">
+              {t.systems.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full border border-sand bg-white px-5 py-2.5 text-sm font-medium text-forest-800 shadow-sm"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </Reveal>
+          <Reveal delay={260}>
+            <a
+              href="#contact"
+              className="group mt-9 inline-flex items-center gap-2 text-base font-semibold text-forest-700 transition-colors hover:text-forest-600"
+            >
+              {t.systems.cta}
+              <ArrowIcon className="h-5 w-5 shrink-0 transition-transform group-hover:translate-x-1" />
+            </a>
+          </Reveal>
+        </div>
+      </section>
+
       {/* ===================== 3D EXPERIENCE ===================== */}
       {/* TEMPORARILY DISABLED — restore in the future.
       <DinnerSection dict={t.experience} />
       */}
+
+      {/* ===================== FAQ ===================== */}
+      <section id="faq" className="scroll-mt-28 bg-cream">
+        <div className="mx-auto max-w-3xl px-6 py-20 lg:py-28">
+          <Reveal className="text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-gold-600">
+              {t.faq.eyebrow}
+            </p>
+            <h2 className="mx-auto mt-4 max-w-2xl font-display text-3xl font-semibold leading-tight tracking-tight text-forest-950 text-balance hyphens-auto break-words sm:text-4xl">
+              {t.faq.title}
+            </h2>
+          </Reveal>
+          <dl className="mt-12 divide-y divide-sand border-y border-sand">
+            {t.faq.items.map((item, i) => (
+              <Reveal key={item.q} delay={i * 60}>
+                <div className="py-7">
+                  <dt className="font-display text-xl font-semibold text-forest-900 hyphens-auto break-words">
+                    {item.q}
+                  </dt>
+                  <dd className="mt-3 text-base leading-relaxed text-ink-soft hyphens-auto break-words">
+                    {item.a}
+                  </dd>
+                </div>
+              </Reveal>
+            ))}
+          </dl>
+        </div>
+      </section>
 
       {/* ===================== CTA / CONTACT ===================== */}
       <section id="contact" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-24 lg:py-32">
@@ -351,7 +422,10 @@ export default async function Home({
               </p>
             </div>
           </div>
-          <p className="max-w-md text-sm leading-relaxed text-ink-soft">{t.footer.blurb}</p>
+          <div className="max-w-md">
+            <p className="text-sm leading-relaxed text-ink-soft">{t.footer.blurb}</p>
+            <p className="mt-3 text-sm font-medium text-forest-700">{t.footer.location}</p>
+          </div>
           <div className="flex flex-col gap-2 text-sm">
             <a
               href="https://www.webbinghub.io"

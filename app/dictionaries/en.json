@@ -12,6 +12,8 @@
       "café technology",
       "hotel ordering system",
       "contactless menu",
+      "QR menu for restaurants",
+      "online ordering for restaurants",
       "WebbingHUB"
     ],
     "ogAlt": "APETIT by WebbingHUB — the digital hospitality platform",
@@ -22,6 +24,7 @@
       "platform": "Platform",
       "how": "How it works",
       "why": "Why APETIT",
+      "systems": "Custom software",
       "experience": "Experience"
     },
     "tagline": "by WebbingHUB",
@@ -138,6 +141,43 @@
       }
     ]
   },
+  "systems": {
+    "eyebrow": "Beyond the platform",
+    "title": "We build custom software for hospitality.",
+    "body": "APETIT is our flagship, but not the limit. WebbingHUB designs and builds custom systems for hotels, restaurants, bars and cafés, for bookings, inventory, staff, reporting, and whatever else your operation runs on. One team, shaped around how you work.",
+    "tags": ["Hotels", "Restaurants", "Bars & cafés"],
+    "cta": "Tell us what you need"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "QR ordering, reservations and custom software, explained.",
+    "items": [
+      {
+        "q": "What is APETIT?",
+        "a": "APETIT is a QR-code platform for restaurants, cafés and hotels. Guests scan the code at their table to read the menu, order, book a table and leave a review from their own phone, with no app to download."
+      },
+      {
+        "q": "Do guests need to download an app to order?",
+        "a": "No. Guests scan the QR code and the menu opens in their browser. They order and call the waiter without installing anything."
+      },
+      {
+        "q": "Can guests order and pay from the table?",
+        "a": "Yes. Guests order straight from the table, and online payment is an optional add-on when you want guests to pay from their phone."
+      },
+      {
+        "q": "Does APETIT handle reservations?",
+        "a": "Yes. APETIT manages bookings, confirmations and reminders, cuts no-shows, and turns walk-ins into future reservations."
+      },
+      {
+        "q": "Do you build custom restaurant and hotel software?",
+        "a": "Yes. Beyond APETIT, WebbingHUB builds custom software for hotels, restaurants, bars and cafés: bookings, inventory, staff and reporting, shaped around how you work."
+      },
+      {
+        "q": "Where is APETIT based and which areas do you serve?",
+        "a": "We're based in Timișoara and work with restaurants, cafés and hotels across Timiș, Romania and the rest of Europe."
+      }
+    ]
+  },
   "experience": {
     "a": {
       "eyebrow": "The APETIT experience",
@@ -167,6 +207,7 @@
   "footer": {
     "tagline": "by WebbingHUB",
     "blurb": "Digital tools for restaurants, cafés & hotels. We design, build and maintain them so you can focus on hospitality.",
+    "location": "Timișoara, Romania. Building for venues across Europe.",
     "rights": "All rights reserved."
   }
 }

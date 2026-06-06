@@ -1,11 +1,13 @@
 {
   "meta": {
     "title": "APETIT by WebbingHUB — Platforma digitală HORECA",
-    "description": "APETIT transformă orice masă în experiență fluidă: comenzi QR, rezervări și recenzii pentru restaurante, cafenele și hoteluri — by WebbingHUB.",
+    "description": "Meniu cu cod QR, comenzi, rezervări și recenzii într-o singură platformă pentru restaurante, cafenele și hoteluri din Timișoara și România — by WebbingHUB.",
     "keywords": [
       "platformă HORECA",
+      "meniu cu cod QR",
       "comenzi prin QR",
-      "meniu digital",
+      "meniu digital Timișoara",
+      "software restaurant Timișoara",
       "rezervări restaurant",
       "tehnologie pentru ospitalitate",
       "software pentru restaurante",
@@ -20,6 +22,7 @@
       "platform": "Platformă",
       "how": "Cum funcționează",
       "why": "De ce APETIT",
+      "systems": "Software la comandă",
       "experience": "Experiență"
     },
     "tagline": "by WebbingHUB",
@@ -136,6 +139,43 @@
       }
     ]
   },
+  "systems": {
+    "eyebrow": "Dincolo de platformă",
+    "title": "Construim software la comandă pentru ospitalitate.",
+    "body": "APETIT este produsul nostru de bază, dar nu și singurul. WebbingHUB proiectează și construiește sisteme la comandă pentru hoteluri, restaurante, baruri și cafenele: rezervări, stocuri, personal, rapoarte și tot ce ține localul în mișcare. O singură echipă, modelată după felul în care lucrezi.",
+    "tags": ["Hoteluri", "Restaurante", "Baruri & cafenele"],
+    "cta": "Spune-ne de ce ai nevoie"
+  },
+  "faq": {
+    "eyebrow": "Întrebări frecvente",
+    "title": "Comenzi prin QR, rezervări și software personalizat, pe scurt.",
+    "items": [
+      {
+        "q": "Ce este APETIT?",
+        "a": "APETIT este o platformă cu cod QR pentru restaurante, cafenele și hoteluri. Oaspeții scanează codul de la masă ca să vadă meniul, să comande, să rezerve o masă și să lase o recenzie de pe propriul telefon, fără nicio aplicație de descărcat."
+      },
+      {
+        "q": "Trebuie oaspeții să descarce o aplicație ca să comande?",
+        "a": "Nu. Oaspeții scanează codul QR și meniul se deschide în browser. Comandă și cheamă chelnerul fără să instaleze nimic."
+      },
+      {
+        "q": "Pot oaspeții să comande și să plătească de la masă?",
+        "a": "Da. Oaspeții comandă direct de la masă, iar plata online este un modul opțional, când vrei ca oaspeții să plătească de pe telefon."
+      },
+      {
+        "q": "APETIT se ocupă de rezervări?",
+        "a": "Da. APETIT gestionează rezervări, confirmări și memento-uri, reduce neprezentările și transformă clienții spontani în rezervări viitoare."
+      },
+      {
+        "q": "Construiți software personalizat pentru restaurante și hoteluri?",
+        "a": "Da. Dincolo de APETIT, WebbingHUB creează software personalizat pentru hoteluri, restaurante, baruri și cafenele: rezervări, stocuri, personal și rapoarte, modelat după felul în care lucrezi."
+      },
+      {
+        "q": "Unde se află APETIT și ce zone acoperiți?",
+        "a": "Suntem din Timișoara și lucrăm cu restaurante, cafenele și hoteluri din Timiș, România și restul Europei."
+      }
+    ]
+  },
   "experience": {
     "a": {
       "eyebrow": "Experiența APETIT",
@@ -165,6 +205,7 @@
   "footer": {
     "tagline": "by WebbingHUB",
     "blurb": "Soluții digitale pentru restaurante, cafenele și hoteluri. Proiectate, construite și întreținute ca tu să te poți concentra pe ospitalitate.",
+    "location": "Din Timișoara, România. Construim pentru localuri din toată Europa.",
     "rights": "Toate drepturile rezervate."
   }
 }

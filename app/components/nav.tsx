@@ -10,6 +10,7 @@ type NavDict = {
     platform: string;
     how: string;
     why: string;
+    systems: string;
     experience: string;
   };
   tagline: string;
@@ -26,6 +27,7 @@ export function Nav({ locale, dict }: { locale: Locale; dict: NavDict }) {
     { label: dict.links.platform, href: "#platform" },
     { label: dict.links.how, href: "#how" },
     { label: dict.links.why, href: "#why" },
+    { label: dict.links.systems, href: "#systems" },
     // TEMPORARILY DISABLED — restore with the 3D experience section.
     // { label: dict.links.experience, href: "#experience" },
   ];

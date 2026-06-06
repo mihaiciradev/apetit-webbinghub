@@ -1,0 +1,38 @@
+# APETIT by WebbingHUB
+
+> APETIT is a QR-code platform for restaurants, cafés and hotels. Guests scan a code at the table to read the menu, order, call the waiter, book a table and leave a review from their own phone, with no app to download. WebbingHUB designs, builds and maintains the whole system, and also builds custom software for hospitality businesses. Based in Timișoara, Romania, serving venues across Europe.
+
+## What APETIT does
+
+- QR-code menu and ordering: guests scan, read the menu in their own language, order and call the waiter from the table. No app to download, no waiting.
+- Reservations: bookings, confirmations and reminders that cut no-shows and turn walk-ins into future bookings.
+- Real-time command center: orders, requests and reviews reach the team's screen the moment they happen.
+- Guest engagement: loyalty, offers and reviews that bring first-time guests back.
+- Done-for-you: WebbingHUB sets it up, hosts it and keeps it running.
+
+## Who it's for
+
+Restaurants, cafés, bars, bistros, wine bars, hotels and other hospitality venues.
+
+## Beyond APETIT
+
+WebbingHUB builds custom software for hotels, restaurants, bars and cafés: bookings, inventory, staff, reporting and more, shaped around how each business works.
+
+## Where we operate
+
+Based in Timișoara, Timiș, Romania. Working with venues across Romania and the rest of Europe, expanding further across Europe.
+
+## Languages
+
+The platform and site are available in English, Romanian, French, Spanish and German.
+
+## Links
+
+- Website: https://apetit.webbinghub.io
+- Agency: https://webbinghub.io
+- Talk to us: https://apetit.webbinghub.io/en#contact
+- FAQ: https://apetit.webbinghub.io/en#faq
+
+## Pricing
+
+Pricing is tailored to each venue and shared directly after a short conversation. Core features come with every build; optional add-ons are switched on only when a venue wants them. Contact us to talk about your venue.
