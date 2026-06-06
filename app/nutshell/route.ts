@@ -756,7 +756,7 @@ const html = `<!DOCTYPE html>
                             <li data-en="Pick date, time, party size" data-ro="Alege dată, oră, mărimea grupului">Pick date, time, party size</li>
                             <li data-en="Get email confirmation immediately" data-ro="Primește confirmarea email imediat">Get email confirmation immediately</li>
                             <li data-en="Modify or cancel anytime" data-ro="Modifică sau anulează oricând">Modify or cancel anytime</li>
-                            <li data-en="Special notes (high chair, quiet table, etc.)" data-ro="Note speciale (scaun pentru copii, masă liniștit, etc.)">Special notes (high chair, quiet table, etc.)</li>
+                            <li data-en="Special notes (high chair, quiet table, etc.)" data-ro="Note speciale (scaun pentru copii, masă liniștită, etc.)">Special notes (high chair, quiet table, etc.)</li>
                             <li data-en="Entrance QR code for walk-in bookings" data-ro="Cod QR la intrare pentru rezervări spontane">Entrance QR code for walk-in bookings</li>
                             <li class="subtext" data-en="(shows immediate availability - converts walk-ins to future bookings)" data-ro="(arată disponibilitate imediată - transformă clienți spontani în rezervări viitoare)">(shows immediate availability - converts walk-ins to future bookings)</li>
                         </ul>
@@ -769,14 +769,14 @@ const html = `<!DOCTYPE html>
                             <span class="label" data-en="Core" data-ro="Esențial">Core</span>
                         </h3>
                         <ul>
-                            <li data-en="Leave reviews after dining" data-ro="Lasă recenzii după ce mânânci">Leave reviews after dining</li>
-                            <li data-en="Rate dishes and add photos" data-ro="Evaluează preparatele și adaugă poze">Rate dishes and add photos</li>
+                            <li data-en="Leave reviews after dining" data-ro="Lasă recenzii după ce mănânci">Leave reviews after dining</li>
+                            <li data-en="Rate dishes" data-ro="Evaluează preparatele">Rate dishes</li>
                             <li data-en="Separate reviews for service, staff, and food" data-ro="Recenzii separate pentru serviciu, personal și mâncare">Separate reviews for service, staff, and food</li>
-                            <li data-en="Earn X% discount for positive reviews" data-ro="Câștigă X% reducere pentru recenzii pozitive">Earn X% discount for positive reviews</li>
+                            <li data-en="Earn X% discount for relevant reviews" data-ro="Câștigă X% reducere pentru recenzii relevante">Earn X% discount for relevant reviews</li>
                             <li data-en="Discount code valid for next order" data-ro="Cod reducere valabil pentru comanda următoare">Discount code valid for next order</li>
                             <li><span data-en="Newsletter system" data-ro="Sistem de newsletter">Newsletter system</span> <strong data-en="(optional)" data-ro="(opțional)">(optional)</strong></li>
                             <li data-en="Admin sees reviews for quality control" data-ro="Admin vede recenziile pentru control de calitate">Admin sees reviews for quality control</li>
-                            <li class="subtext" data-en="(public reviews appear on Google, internal reviews visible to staff only)" data-ro="(recenziile publice apar pe Google, recenziile interne sunt doar pentru staff)">(public reviews appear on Google, internal reviews visible to staff only)</li>
+                            <li class="subtext" data-en="(APETIT reviews are not public - they are strictly informative, for staff only)" data-ro="(recenziile din APETIT nu sunt publice - sunt strict informative, doar pentru staff)">(APETIT reviews are not public - they are strictly informative, for staff only)</li>
                         </ul>
                         <p class="note" data-en="Real feedback from real diners, and a reason to come back." data-ro="Feedback real de la oameni reali și un motiv să revină.">Real feedback from real diners, and a reason to come back.</p>
                     </div>
@@ -843,13 +843,18 @@ const html = `<!DOCTYPE html>
                         </div>
 
                         <div class="feature-item">
-                            <h5 data-en="👥 In-Person Strategy Meetings" data-ro="👥 Ședințe de Strategie în Persoană">👥 In-Person Strategy Meetings</h5>
-                            <p data-en="We sit down with your team, learn how your venue runs, and shape APETIT around it." data-ro="Ne așezăm cu echipa ta, învățăm cum funcționează localul și modelăm APETIT după el.">We sit down with your team, learn how your venue runs, and shape APETIT around it.</p>
+                            <h5 data-en="👥 In-Person Meetings" data-ro="👥 Întâlniri în Persoană">👥 In-Person Meetings</h5>
+                            <p data-en="We sit at the table with your team, learn how your venue runs, and shape APETIT around it." data-ro="Ne așezăm la masă cu echipa ta, învățăm cum funcționează localul și modelăm APETIT după el.">We sit at the table with your team, learn how your venue runs, and shape APETIT around it.</p>
                         </div>
 
                         <div class="feature-item">
                             <h5 data-en="📍 Entrance Reservation QR Code" data-ro="📍 Cod QR Rezervare la Intrare">📍 Entrance Reservation QR Code</h5>
                             <p data-en="We give you an entrance QR code so walk-ins can book a table for later. You keep the customers you'd otherwise turn away." data-ro="Îți dăm un cod QR la intrare ca vizitatorii spontani să rezerve o masă pentru altă dată. Păstrezi clienții pe care altfel i-ai pierde.">We give you an entrance QR code so walk-ins can book a table for later. You keep the customers you'd otherwise turn away.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="📊 Reservation Dashboard, Even Offline" data-ro="📊 Panou de Rezervări, Chiar și Offline">📊 Reservation Dashboard, Even Offline</h5>
+                            <p data-en="You manage every booking from one dashboard. If the internet goes down, it keeps working, so your service never stops." data-ro="Îți gestionezi toate rezervările dintr-un singur panou. Dacă pică internetul, continuă să funcționeze, ca serviciul tău să nu se oprească.">You manage every booking from one dashboard. If the internet goes down, it keeps working, so your service never stops.</p>
                         </div>
 
                         <div class="feature-item">
@@ -983,7 +988,7 @@ const html = `<!DOCTYPE html>
             },
             ro: {
                 'tagline': 'Platformă Digitală pentru Restaurante, Cafenele & Hoteluri',
-                'intro': 'APETIT este o platformă bazată pe coduri QR construită pentru businessuri din industria ospitalității. Clienții scanează un cod pe masa pentru a comanda și a face rezervări. Primești comenzi și rezervări în timp real fără taxe de intermediari. Simplu, transparent, sub controlul tău.',
+                'intro': 'APETIT este o platformă bazată pe coduri QR construită pentru businessuri din industria ospitalității. Clienții scanează un cod pe masă pentru a comanda și a face rezervări. Primești comenzi și rezervări în timp real fără taxe de intermediari. Simplu, transparent, sub controlul tău.',
             }
         };
 
