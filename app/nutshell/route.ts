@@ -859,7 +859,7 @@ const html = `<!DOCTYPE html>
 
                         <div class="feature-item">
                             <h5 data-en="🧪 Tested Before It Reaches You" data-ro="🧪 Testat Înainte să Ajungă la Tine">🧪 Tested Before It Reaches You</h5>
-                            <p data-en="We build the way serious software demands: separate environments for development and for your live venue, with real testing before any update ships. We prove every change off to the side first, so nothing breaks while you serve." data-ro="Construim așa cum cere software-ul serios: medii separate pentru dezvoltare și pentru localul tău live, cu testare reală înainte ca orice actualizare să ajungă la tine. Probăm fiecare schimbare deoparte mai întâi, ca nimic să nu se strice în timp ce servești.">We build the way serious software demands: separate environments for development and for your live venue, with real testing before any update ships. We prove every change off to the side first, so nothing breaks while you serve.</p>
+                            <p data-en="We respect the industry's development standards: separate environments and real testing before anything reaches you. Nothing breaks while you serve." data-ro="Respectăm standardele de dezvoltare ale industriei: medii separate și testare reală înainte ca orice să ajungă la tine. Nimic nu se strică în timp ce servești.">We respect the industry's development standards: separate environments and real testing before anything reaches you. Nothing breaks while you serve.</p>
                         </div>
 
                         <div class="feature-item">
