@@ -33,10 +33,12 @@ export function proxy(request: NextRequest) {
   );
   if (hasLocale) return;
 
-  // Otherwise redirect to the locale-prefixed equivalent.
+  // Otherwise redirect to the locale-prefixed equivalent. Use a permanent (308)
+  // redirect so Google consolidates signals onto the locale URL instead of
+  // keeping the bare path in limbo (a temporary 307 leaves it "Page with redirect").
   const locale = getLocale(request);
   request.nextUrl.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  return NextResponse.redirect(request.nextUrl, 308);
 }
 
 export const config = {
