@@ -915,7 +915,7 @@ const html = `<!DOCTYPE html>
                             <h4 data-en="Commission Model" data-ro="Model pe Comision">Commission Model</h4>
 
                             <div class="price-display">
-                                <div class="amount">€600<span style="font-size: 18px;"> + 5%</span></div>
+                                <div class="amount">€600<span style="font-size: 18px;"> + 7%</span></div>
                                 <div class="period" data-en="Setup fee + commission per online order" data-ro="Taxă de configurare + comision per comandă online">Setup fee + commission per online order</div>
                             </div>
                         </div>
