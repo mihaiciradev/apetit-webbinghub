@@ -972,6 +972,55 @@ const html = `<!DOCTYPE html>
                     <strong data-en="If something breaks, we fix it." data-ro="Dacă ceva se strică, reparăm.">If something breaks, we fix it.</strong> <span data-en="Maintenance, updates, and support live in the price. We handle the technical problems so you don't." data-ro="Întreținerea, actualizările și suportul intră în preț. Noi ducem partea tehnică, tu te concentrezi pe restaurant.">Maintenance, updates, and support live in the price. We handle the technical problems so you don't.</span>
                 </p>
             </div>
+
+            <!-- WHY RESTAURANTS CHOOSE APETIT (closing argument) -->
+            <div class="section" style="margin-top: 60px; margin-bottom: 0;">
+                <h2 class="section-title" data-en="Why?" data-ro="De ce?">Why?</h2>
+
+                <div class="feature-section">
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <h5 data-en="⏱️ Less running for staff" data-ro="⏱️ Mai puțină alergătură pentru personal">⏱️ Less running for staff</h5>
+                            <p data-en="Guests order from their phone. Staff carry plates, not notepads, and serve more tables a shift." data-ro="Oaspeții comandă de pe telefon. Personalul cară farfurii, nu carnețele, și servește mai multe mese pe tură.">Guests order from their phone. Staff carry plates, not notepads, and serve more tables a shift.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="🍽️ Skip the delivery apps" data-ro="🍽️ Sari peste aplicațiile de livrare">🍽️ Skip the delivery apps</h5>
+                            <p data-en="Guests order straight from you, not through a delivery app. The cut you'd hand over stays on your side." data-ro="Oaspeții comandă direct de la tine, nu printr-o aplicație de livrare. Comisionul pe care l-ai da rămâne la tine.">Guests order straight from you, not through a delivery app. The cut you'd hand over stays on your side.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="🎟️ Vouchers that bring them back" data-ro="🎟️ Vouchere care îi aduc înapoi">🎟️ Vouchers that bring them back</h5>
+                            <p data-en="Send a voucher after a visit and turn one meal into the next. They come back to you, not the app." data-ro="Trimiți un voucher după vizită și transformi o masă în următoarea. Revin la tine, nu la aplicație.">Send a voucher after a visit and turn one meal into the next. They come back to you, not the app.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="♾️ Run your own programs" data-ro="♾️ Pornește propriile programe">♾️ Run your own programs</h5>
+                            <p data-en="All-you-can-eat, happy hour, any deal you dream up. Your rules, live in minutes." data-ro="All-you-can-eat, happy hour, orice ofertă îți vine. Regulile tale, live în câteva minute.">All-you-can-eat, happy hour, any deal you dream up. Your rules, live in minutes.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="🌍 Any language you need" data-ro="🌍 Orice limbă îți trebuie">🌍 Any language you need</h5>
+                            <p data-en="Serve guests in their own language. You name it, we add it, and tourists order with zero friction." data-ro="Servești oaspeții în limba lor. Tu o numești, noi o adăugăm, iar turiștii comandă fără nicio bătaie de cap.">Serve guests in their own language. You name it, we add it, and tourists order with zero friction.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="🤝 The guest stays yours" data-ro="🤝 Oaspetele rămâne al tău">🤝 The guest stays yours</h5>
+                            <p data-en="Every order grows your customer list, not someone else's. The relationship is yours to keep." data-ro="Fiecare comandă îți crește lista ta de clienți, nu a altcuiva. Relația rămâne a ta.">Every order grows your customer list, not someone else's. The relationship is yours to keep.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="📅 Reservations, the modern way" data-ro="📅 Rezervări, modern">📅 Reservations, the modern way</h5>
+                            <p data-en="Guests book a table from their phone in seconds. Every reservation lands in real time, no phone calls, no paper diary." data-ro="Oaspeții rezervă o masă de pe telefon în câteva secunde. Fiecare rezervare apare în timp real, fără apeluri, fără agendă pe hârtie.">Guests book a table from their phone in seconds. Every reservation lands in real time, no phone calls, no paper diary.</p>
+                        </div>
+
+                        <div class="feature-item">
+                            <h5 data-en="🎨 Built to match your business" data-ro="🎨 Construit pe măsura ta">🎨 Built to match your business</h5>
+                            <p data-en="The interface is custom-built around your brand and the way your venue runs. It looks like you, not a template." data-ro="Interfața e construită pe măsură, după brandul tău și felul în care funcționează localul. Arată ca tine, nu ca un șablon.">The interface is custom-built around your brand and the way your venue runs. It looks like you, not a template.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Footer -->

@@ -4,7 +4,10 @@
       "Bash(cd /d D:\\\\apetit-webbinghub)",
       "Bash(dir /b)",
       "Bash(dir /b /s app)",
-      "mcp__Claude_Preview__preview_start"
+      "mcp__Claude_Preview__preview_start",
+      "Bash(cat)",
+      "Bash(node /tmp/check.js)",
+      "Bash(rm /tmp/check.js)"
     ]
   }
 }
