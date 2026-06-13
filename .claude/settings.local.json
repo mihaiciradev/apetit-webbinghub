@@ -7,7 +7,9 @@
       "mcp__Claude_Preview__preview_start",
       "Bash(cat)",
       "Bash(node /tmp/check.js)",
-      "Bash(rm /tmp/check.js)"
+      "Bash(rm /tmp/check.js)",
+      "Bash(node -e \"const p=require\\('./package.json'\\); console.log\\(JSON.stringify\\(p.scripts,null,2\\)\\)\")",
+      "Bash(npm run *)"
     ]
   }
 }
